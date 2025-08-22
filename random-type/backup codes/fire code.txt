@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Fire Type Pokémon</title>
+  <link rel="stylesheet" href="pkmnpg.css">
+</head>
+<body class="pkfire">
+  <header>
+    <h1>🔥 Welcome to Fire-Type Pokémon 🔥</h1>
+</header>
+
+<div class="fire-layout">
+    <img src="type pictures/magmar.png" class="magmar" alt="Magmar">
+
+    <div class="center-column">
+      <button id="randomfire">Get a Random Fire-Type Pokémon</button>
+      <p id="fireResult"></p>
+      <div class="link-container">
+        <a class="dex-link serebii" id="serebiiLink" href="#" target="_blank" style="display:none">View on Serebii</a>
+        <a class="dex-link bulbapedia" id="bulbapediaLink" href="#" target="_blank" style="display:none">View on Bulbapedia</a>
+    </div>
+</div>
+
+<img src="type pictures/torchic.png" class="torchic" alt="Torchic">
+</div>
+
+<button id="homeBtn">Home</button>
+
+<script src="pkmn-script.js"></script>
+</body>
+</html>

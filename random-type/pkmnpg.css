@@ -1,0 +1,1820 @@
+/* Global Styles */
+body {
+  text-align: center;
+  font-family: Arial, sans-serif;
+  margin-top: 150px;
+  background-color: #ffffff;
+}
+
+select, button {
+  font-size: 20px;
+  padding: 10px;
+  margin: 10px;
+  cursor: pointer;
+}
+
+button {
+  background-color: #d90505;
+  border: none;
+  border-radius: 5px;
+}
+
+button:hover {
+  background-color: #13500c;
+}
+
+h1 {
+  color: blueviolet;
+}
+
+h2 {
+  margin-top: 150px;
+  margin-left: 25px;
+  color: blueviolet;
+}
+
+#searchResult {
+  margin-top: 25px;
+  text-align: center;
+  background-color: blueviolet;
+}
+
+/* === Link Styling Shared Across Pages === */
+
+.dex-link {
+  display: none;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.3s ease;
+}
+
+.dex-link.show {
+  display: inline-block;
+  opacity: 1;
+  pointer-events: auto;
+}
+
+.dex-link.hidden {
+  display: none;
+}
+
+/* Homepage Styles */
+body:has(#randomButton) {
+  background-color: #f2f2f2;
+  color: #333;
+  font-family: 'Segoe UI', sans-serif;
+  margin: 0;
+  padding: 40px;
+}
+
+/* Header */
+body h1 {
+  font-size: 2.5rem;
+  color: #d1055d;
+  text-shadow: 1px 1px white;
+  margin-bottom: 30px;
+}
+
+/* Type Dropdown */
+label[for="type"] {
+  font-weight: bold;
+  font-size: 1.1rem;
+  margin-right: 8px;
+}
+
+#type {
+  padding: 8px 12px;
+  font-size: 1rem;
+  border-radius: 6px;
+  border: 1px solid #aaa;
+  background-color: #fff;
+}
+
+/* Buttons Shared */
+#randomButton,
+#searchButton,
+#randomTypeBtn {
+  background-color: #5e35b1;
+  color: white;
+  padding: 10px 20px;
+  margin: 15px 10px;
+  font-size: 16px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s;
+}
+
+#randomButton:hover,
+#searchButton:hover,
+#randomTypeBtn:hover {
+  background-color: #4527a0;
+  transform: scale(1.05);
+}
+
+/* Input Field */
+#searchInput {
+  padding: 10px;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  width: 250px;
+  margin: 10px auto;
+}
+
+/* Result Styling */
+#searchResult {
+  margin-top: 30px;
+  padding: 20px;
+  background-color: #e0d7f8;
+  border-radius: 12px;
+  box-shadow: 0 0 15px rgba(81, 45, 168, 0.2);
+}
+
+/* Section Headings */
+h2 {
+  color: #333366;
+  margin-top: 40px;
+}
+
+/*pokedex links*/
+
+/* Shared base style for all external Pokédex links */
+
+a.dex-link {
+  display: inline-block;
+  text-decoration: none;
+  font-weight: bold;
+  padding: 8px 14px;
+  margin: 4px;
+  border-radius: 6px;
+  transition: transform 0.2s ease, background-color 0.2s ease;
+  color: #1a1a1a;
+  border: 2px solid #ccc;
+  background-color: #e6e6e6;
+}
+
+a.dex-link:hover {
+  transform: translateY(-2px);
+}
+
+/* Pokémon.com official link */
+a.dex-link.official {
+  background-color: #f2cb07;
+  border-color: #e2b607;
+}
+
+a.dex-link.official:hover {
+  background-color: #ffe451;
+}
+
+/* Serebii styling */
+a.dex-link.serebii {
+  background-color: #a5d6a7;
+  border-color: #7cb342;
+}
+
+a.dex-link.serebii:hover {
+  background-color: #c8e6c9;
+}
+
+/* Bulbapedia styling */
+a.dex-link.bulbapedia {
+  background-color: #bbdefb;
+  border-color: #64b5f6;
+}
+
+a.dex-link.bulbapedia:hover {
+  background-color: #e3f2fd;
+}
+
+/*fire.html*/
+
+.pkfire {
+  background: radial-gradient(circle at center, #fff3e0 0%, #ff8a65 100%);
+  background-image: url("type pictures/fire-overlay.png"); /* optional ember or flame texture */
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  color: #bf360c;
+}
+
+.pkfire h1 {
+  color: #e53935;
+  text-shadow: 0 0 12px #ffccbc, 0 0 22px rgba(255, 87, 34, 0.6);
+  font-weight: bold;
+}
+
+.pkfire #homeBtn,
+.pkfire #randomfire {
+  background-color: rgba(255, 138, 101, 0.85);
+  color: #4e1408;
+  font-weight: bold;
+  border: none;
+  border-radius: 6px;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  box-shadow: 0 0 10px rgba(255, 87, 34, 0.4);
+  text-shadow: 0 0 5px white;
+  transition: background-color 0.3s, transform 0.2s;
+}
+
+.pkfire #homeBtn:hover,
+.pkfire #randomfire:hover {
+  background-color: rgba(255, 204, 188, 0.9);
+  transform: translateY(-1px);
+}
+
+.pkfire #fireResult {
+  color: #e53935;
+  text-shadow: 0 0 12px #ffccbc, 0 0 22px rgba(255, 87, 34, 0.6);
+  font-weight: bold;
+}
+
+.pkfire #fireResult img.fire-sprite {
+  width: 250px;
+  height: auto;
+  border-radius: 10px;
+  margin-top: 20px;
+}
+
+.fire-layout {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 40px auto;
+  max-width: 1000px;
+  padding: 0 20px;
+  border-radius: 12px;
+  backdrop-filter: blur(2px);
+}
+
+.fire-layout img.torchic,
+.fire-layout img.magmar {
+  width: 250px;
+  height: auto;
+  border-radius: 12px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.center-column {
+  text-align: center;
+  flex-shrink: 0;
+}
+
+.center-column button {
+  margin: 12px 0;
+  padding: 10px 20px;
+  font-size: 1rem;
+  background-color: #ff6600;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.pkfire .dex-link.official,
+.pkfire .dex-link.serebii,
+.pkfire .dex-link.bulbapedia {
+  background-color: rgba(255, 138, 101, 0.85);
+  color: #4e1408;
+  border: none;
+  text-shadow: 0 0 5px white;
+  transition: background-color 0.3s, transform 0.2s;
+}
+
+.pkfire .dex-link.official:hover,
+.pkfire .dex-link.serebii:hover,
+.pkfire .dex-link.bulbapedia:hover {
+  background-color: rgba(255, 204, 188, 0.9);
+  transform: translateY(-1px);
+}
+
+/*water.html*/
+
+.pkwater {
+  background: radial-gradient(circle at center, #e0f7fa 0%, #81d4fa 100%);
+  background-image: url("type pictures/water-overlay.png"); /* Optional ripple texture */
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  color: #01579b;
+}
+
+.pkwater h1 {
+  color: #0277bd;
+  text-shadow: 0 0 10px #b3e5fc, 0 0 20px rgba(2, 136, 209, 0.6);
+  font-weight: bold;
+}
+
+.pkwater #homeBtn,
+.pkwater #randomwater {
+  background-color: rgba(3, 169, 244, 0.85);
+  color: #ffffff;
+  font-weight: bold;
+  border: none;
+  text-shadow: 0 0 5px white;
+  transition: background-color 0.3s, transform 0.2s;
+}
+
+.pkwater #homeBtn:hover,
+.pkwater #randomwater:hover {
+  background-color: #4fc3f7;
+  transform: scale(1.05);
+}
+
+.pkwater #waterResult {
+  color: #1b8528;
+  font-size: 27px;
+  font-weight: bold;
+  text-shadow: 0 0 15px #25b136;
+}
+
+.pkwater #waterResult img.water-sprite {
+  width: 250px;
+  height: auto;
+  border-radius: 10px;
+  margin-top: 20px;
+}
+
+.water-layout {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 40px auto;
+  max-width: 1000px;
+  padding: 0 20px;
+  border-radius: 12px;
+  backdrop-filter: blur(2px);
+}
+
+.water-layout img.squirtle,
+.water-layout img.cloyster {
+  width: 250px;
+  height: auto;
+  border-radius: 12px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.pkwater .dex-link.official,
+.pkwater .dex-link.serebii,
+.pkwater .dex-link.bulbapedia {
+  background-color: rgba(3, 169, 244, 0.85);
+  color: #ffffff;
+  border: none;
+  text-shadow: 0 0 5px white;
+  transition: background-color 0.3s, transform 0.2s;
+}
+
+.pkwater .dex-link.official:hover,
+.pkwater .dex-link.serebii:hover,
+.pkwater .dex-link.bulbapedia:hover {
+  background-color: rgba(129, 212, 250, 0.9);
+  transform: translateY(-1px);
+}
+
+/*grass.html*/
+
+.pkgrass {
+  background: radial-gradient(circle at center, #c8e6c9 0%, #81c784 100%);
+  background-image: url("type pictures/grass-overlay.png"); /* Optional leafy or mossy texture */
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  color: #1b5e20;
+}
+
+.pkgrass h1 {
+  color: #2e7d32;
+  text-shadow: 0 0 10px #aed581, 0 0 20px rgba(102, 187, 106, 0.4);
+  font-weight: bold;
+}
+
+/* Home and Random Button Styles */
+.pkgrass #homeBtn,
+.pkgrass #randomgrass {
+  background: linear-gradient(145deg, #66bb6a, #388e3c);
+  color: white;
+  font-weight: bold;
+  border: none;
+  border-radius: 6px;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  box-shadow: 0 0 10px rgba(46, 125, 50, 0.4);
+  transition: background-color 0.3s, transform 0.2s, box-shadow 0.3s;
+}
+
+.pkgrass #homeBtn:hover,
+.pkgrass #randomgrass:hover {
+  background-color: #a5d6a7;
+  transform: translateY(-2px);
+  box-shadow: 0 0 20px rgba(255, 255, 255, 0.5);
+}
+
+.pkgrass #grassResult {
+  width: 250px;
+  height: auto;
+  margin: 20px auto 0;
+  text-align: center;
+  font-weight: bold;
+  font-size: 27px;
+  text-shadow: 0 0 10px #aed581, 0 0 20px rgba(102, 187, 106, 0.4);
+}
+
+.pkgrass #grassResult img.grass-sprite {
+  width: 250px;
+  height: auto;
+  border-radius: 10px;
+  margin-top: 20px;
+}
+
+/* Layout Styling */
+.grass-layout {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 40px auto;
+  max-width: 1000px;
+  padding: 0 20px;
+  border-radius: 12px;
+  backdrop-filter: blur(2px);
+}
+
+.grass-layout img.bulbasaur,
+.grass-layout img.chikorita {
+  width: 250px;
+  height: auto;
+  border-radius: 12px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+
+/* Link Styling */
+
+.pkgrass .dex-link.official,
+.pkgrass .dex-link.serebii,
+.pkgrass .dex-link.bulbapedia {
+  background-color: rgba(139, 195, 74, 0.85);
+  color: #1b5e20;
+  border: none;
+  text-shadow: 0 0 4px white;
+  transition: background-color 0.3s, transform 0.2s;
+}
+
+.pkgrass .dex-link.official:hover,
+.pkgrass .dex-link.serebii:hover,
+.pkgrass .dex-link.bulbapedia:hover {
+  background-color: rgba(200, 230, 201, 0.95);
+  transform: translateY(-1px);
+}
+
+/*electric.html*/
+
+.pkelectric {
+  background-color: #fffde7;
+  color: #333;
+}
+
+.pkelectric h1 {
+  color: #fbc02d;
+  text-shadow: 1px 1px #fff176;
+}
+
+.pkelectric #homeBtn,
+.pkelectric #randomelectric {
+  background-color: #fdd835;
+  color: #212121;
+  font-weight: bold;
+  border: none;
+  border-radius: 6px;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.2s;
+}
+
+.pkelectric #homeBtn:hover,
+.pkelectric #randomelectric:hover {
+  background-color: #fbc02d;
+  transform: scale(1.05);
+}
+
+.electric-layout {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 40px auto;
+  max-width: 1000px;
+  padding: 0 20px;
+}
+
+.electric-layout img,
+.electric-layout img.electabuzz,
+.electric-layout img.magnemite {
+  width: 250px;
+  height: auto;
+  border-radius: 10px;
+  box-shadow: 0px 0px 15px rgba(253, 216, 53, 0.4);
+}
+
+/* Link Styling */
+
+.pkelectric .dex-link.official {
+  background-color: #fdd835;
+  color: #black;
+  border: none;
+}
+
+.pkelectric .dex-link.official:hover {
+  background-color: #81c784;
+}
+
+.pkelectric .dex-link.serebii {
+  background-color: #fdd835;
+  color: black;
+  border: none;
+}
+
+.pkelectric .dex-link.serebii:hover {
+  background-color: #81c784;
+}
+
+.pkelectric .dex-link.bulbapedia {
+  background-color: #fdd835;
+  color: black;
+  border: none;
+}
+
+.pkelectric .dex-link.bulbapedia:hover {
+  background-color: #388e3c;
+}
+
+/*bug.html*/
+
+.pkbug {
+  background: radial-gradient(circle at center, #e8f5e9 0%, #a5d6a7 100%);
+  background-image: url("type pictures/bug-overlay.png"); /* optional leafy or web texture */
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  color: #1b5e20;
+}
+
+.pkbug h1 {
+  color: #2e7d32;
+  text-shadow: 0 0 10px #c8e6c9, 0 0 20px rgba(76, 175, 80, 0.4);
+  font-weight: bold;
+}
+
+.pkbug #homeBtn,
+.pkbug #randombug {
+  background-color: rgba(139, 195, 74, 0.85);
+  font-weight: bold;
+  color: #1b5e20;
+  border: none;
+  text-shadow: 0 0 4px white;
+  transition: background-color 0.3s, transform 0.2s;
+}
+
+.pkbug #homeBtn:hover,
+.pkbug #randombug:hover {
+  background-color: rgba(200, 230, 201, 0.95);
+  transform: translateY(-1px);
+}
+
+.bug-layout {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 40px auto;
+  max-width: 1000px;
+  padding: 0 20px;
+  border-radius: 12px;
+  backdrop-filter: blur(3px);
+}
+
+.bug-layout img.butterfree,
+.bug-layout img.vespequen {
+  width: 250px;
+  height: auto;
+  border-radius: 12px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.pkbug #bugResult {
+  color: #1b5e20;
+  font-weight: bold;
+  font-size: 25px;
+  border: none;
+  text-shadow: 0 0 4px white;
+  transition: background-color 0.3s, transform 0.2s;
+}
+
+.pkbug #bugResult img.bug-sprite {
+  width: 250px;
+  height: auto;
+  border-radius: 10px;
+  margin-top: 20px;
+}
+
+/* Link Styling */
+
+.pkbug .dex-link.official,
+.pkbug .dex-link.serebii,
+.pkbug .dex-link.bulbapedia {
+  background-color: rgba(139, 195, 74, 0.85);
+  color: #1b5e20;
+  border: none;
+  text-shadow: 0 0 4px white;
+  transition: background-color 0.3s, transform 0.2s;
+}
+
+.pkbug .dex-link.official:hover,
+.pkbug .dex-link.serebii:hover,
+.pkbug .dex-link.bulbapedia:hover {
+  background-color: rgba(200, 230, 201, 0.95);
+  transform: translateY(-1px);
+}
+
+/*flying.html*/
+
+.pkflying {
+  background: radial-gradient(circle at center, #e3f2fd 0%, #90caf9 100%);
+  background-image: url("type pictures/flying-overlay.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  color: #0d47a1;
+}
+
+.pkflying h1 {
+  color: #1565c0;
+  text-shadow: 0 0 12px #bbdefb, 0 0 24px rgba(33, 150, 243, 0.6);
+  font-weight: bold;
+}
+
+/*normal.html*/
+
+.pknormal {
+  background-color: #fff493;
+  color: #6e2c00;
+}
+
+.pknormal h1 {
+  color: #6e2c00;
+}
+
+.pknormal p {
+  color: #dc00d0;
+}
+
+/* Home and Random Button Styles */
+.pknormal #homeBtn,
+.pknormal #randomnormal {
+  background-color: #6e2c00;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 6px;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.2s;
+}
+
+.pknormal #homeBtn:hover,
+.pknormal #randomnormal:hover {
+  background-color: #dc00d0;
+  transform: scale(1.05);
+}
+
+/* Layout Styling */
+.normal-layout {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 40px auto;
+  max-width: 1000px;
+  padding: 0 20px;
+}
+
+.normal-layout img,
+.normal-layout img.exploud,
+.normal-layout img.kecleon {
+  width: 250px;
+  height: auto;
+  border: none;
+  background-color: transparent;
+  background: transparent;
+}
+
+.pknormal p {
+  font-weight: bold;
+  font-size: 18px;
+}
+
+/* Link Styling */
+
+.pknormal .dex-link.official{
+  background-color: #873600;
+  color: white;
+  border: none;
+}
+
+.pknormal .dex-link.official:hover{
+  background-color: #dc00d0;
+}
+
+.pknormal .dex-link.serebii {
+  background-color: #873600;
+  color: white;
+  border: none;
+}
+
+.pknormal .dex-link.serebii:hover {
+  background-color: #dc00d0;
+}
+
+.pknormal .dex-link.bulbapedia {
+  background-color: #873600;
+  color: white;
+  border: none;
+}
+
+.pknormal .dex-link.bulbapedia:hover {
+  background-color: #dc00d0;
+}
+
+/*dark.html*/
+
+.pkdark {
+  background-color: #313131;
+  color: #333;
+}
+
+.pkdark h1 {
+  color: #fbc02d;
+  text-shadow: 1px 1px #fff176;
+}
+
+.pkdark #homeBtn,
+.pkdark #randomdark {
+  background-color: #fdd835;
+  color: #212121;
+  border: none;
+  border-radius: 6px;
+  padding: 10px 20px;
+  font-size: 18px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.2s;
+}
+
+.pkdark #homeBtn:hover,
+.pkdark #randomdark:hover {
+  background-color: #00aeff;
+  transform: scale(1.05);
+}
+
+.dark-layout {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 40px auto;
+  max-width: 1000px;
+  padding: 0 20px;
+}
+
+.dark-layout img,
+.umbreon,
+.poochyena {
+  width: 250px;
+  height: auto;
+  border-radius: 10px;
+  border: none;
+}
+
+/* Link Styling */
+
+.pkdark .dex-link.official {
+  background-color: fbc02d;
+  color: black;
+}
+
+.pkdark .dex-link.official:hover {
+  background-color: #00aeff;
+}
+
+.pkdark .dex-link.serebii {
+  background-color: #fbc02d;
+  border: none;
+  color: black;
+}
+
+.pkdark .dex-link.serebii:hover {
+  background-color: #00aeff;
+  color: black;
+}
+
+.pkdark .dex-link.bulbapedia {
+  background-color: #fbc02d;
+  border: none;
+  color: black;
+}
+
+.pkdark .dex-link.bulbapedia:hover {
+  background-color: #00aeff;
+}
+
+
+/*dragon.html*/
+
+.pkdragon {
+  background-color: #e3e0f9; /* soft lavender sky */
+  color: #311b92; /* deep purple text */
+}
+
+.pkdragon h1 {
+  color: #7e57c2; /* medium dragon violet */
+  text-shadow: 1px 1px #d1c4e9;
+}
+
+.pkdragon #homeBtn,
+.pkdragon #randomdragon {
+  background-color: #7e57c2;
+  color: #f5ff00;
+  border: none;
+  border-radius: 6px;
+  padding: 10px 20px;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.2s;
+}
+
+.pkdragon #homeBtn:hover,
+.pkdragon #randomdragon:hover {
+  background-color: #9575cd;
+  transform: scale(1.05);
+}
+
+.dragon-layout #dragonResult {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.dragon-layout {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 40px auto;
+  max-width: 1000px;
+  padding: 0 20px;
+}
+
+.dragon-layout img,
+.dratini,
+.drampa {
+  width: 250px;
+  height: auto;
+  border-radius: 12px;
+}
+
+/* Link Styling */
+
+.pkdragon .dex-link.official {
+  background-color: #7e57c2;
+  color: #f5ff00;
+  border: none;
+}
+.pkdragon .dex-link.official:hover {
+  background-color: #b39ddb;
+}
+
+.pkdragon .dex-link.serebii {
+  background-color: #7e57c2;
+  color: #f5ff00;
+  border: none;
+}
+.pkdragon .dex-link.serebii:hover {
+  background-color: #b39ddb;
+}
+
+.pkdragon .dex-link.bulbapedia {
+  background-color: #7e57c2;
+  color: #f5ff00;
+  border: none;
+}
+.pkdragon .dex-link.bulbapedia:hover {
+  background-color: #b39ddb;
+}
+
+
+/*fighting.html*/
+
+.pkfighting {
+  background-color: #fff3e0; /* warm arena glow */
+  color: #3e2723;            /* strong brown text */
+}
+
+.pkfighting h1 {
+  color: #ef6c00;            /* deep orange */
+  text-shadow: 1px 1px #ffcc80;
+}
+
+.pkfighting #homeBtn,
+.pkfighting #randomfighting {
+  background-color: #d84315;  /* rich burnt orange */
+  color: whitesmoke;
+  border: none;
+  border-radius: 6px;
+  padding: 10px 20px;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.2s;
+}
+
+.pkfighting #homeBtn:hover,
+.pkfighting #randomfighting:hover {
+  background-color: #ff7043;
+  transform: scale(1.05);
+}
+
+.fighting-layout {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 40px auto;
+  max-width: 1000px;
+  padding: 0 20px;
+}
+
+.fighting-layout img,
+.lilligant,
+.falinks {
+  width: 250px;
+  height: auto;
+}
+
+/* Link Styling */
+
+.pkfighting .dex-link.official {
+  background-color: #d84315;
+  color: whitesmoke;
+  border: none;
+}
+.pkfighting .dex-link.official:hover {
+  background-color: #ffca28;
+}
+
+.pkfighting .dex-link.serebii {
+  background-color: #d84315;
+  color: whitesmoke;
+  border: none;
+}
+.pkfighting .dex-link.serebii:hover {
+  background-color: #f48fb1;
+}
+
+.pkfighting .dex-link.bulbapedia {
+  background-color: #d84315;
+  color: whitesmoke;
+  border: none;
+}
+.pkfighting .dex-link.bulbapedia:hover {
+  background-color: #aed581;
+}
+
+/*rock.html*/
+
+.pkrock {
+  background-color: #f3f0ea; /* soft stone walls */
+  color: #3e3e3e;            /* neutral stone gray for text */
+}
+
+.pkrock h1 {
+  color: #795548;            /* rich earthy brown */
+  text-shadow: 1px 1px #d7ccc8; /* stone shine */
+}
+
+.pkrock #homeBtn,
+.pkrock #randomrock {
+  background-color: #a1887f; /* warm rock gray */
+  color: white;
+  border: none;
+  border-radius: 6px;
+  padding: 10px 20px;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.2s;
+}
+
+.pkrock #homeBtn:hover,
+.pkrock #randomrock:hover {
+  background-color: #bcaaa4;
+  transform: scale(1.05);
+}
+
+.pkrock #rockResult {
+  font-weight: bold;
+  font-size: 25px;
+}
+
+.rock-layout {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 40px auto;
+  max-width: 1000px;
+  padding: 0 20px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 12px;
+}
+
+.rock-layout img,
+.tirtouga,
+.magcargo {
+  width: 250px;
+  height: auto;
+}
+
+/* Link Styling */
+
+.pkrock .dex-link.official {
+  background-color: #a1887f;
+  color: whitesmoke;
+  border: none;
+}
+.pkrock .dex-link.official:hover {
+  background-color: #a1887f;
+}
+
+.pkrock .dex-link.serebii {
+  background-color: #a1887f;
+  color: whitesmoke;
+  border: none;
+}
+.pkrock .dex-link.serebii:hover {
+  background-color: #b0bec5;
+}
+
+.pkrock .dex-link.bulbapedia {
+  background-color: #a1887f;
+  color: whitesmoke;
+  border: none;
+}
+.pkrock .dex-link.bulbapedia:hover {
+  background-color: #ffca28;
+}
+
+/*fairy.html*/
+
+.pkfairy {
+  background-color: #ffb8fb;
+  color: #fbc02d;
+}
+
+.pkfairy h1 {
+  color: #ff23cb;
+  text-shadow: 1px 2px #e635c2;
+}
+
+.pkfairy #homeBtn,
+.pkfairy #randomfairy {
+  background-color: #ff23cb;
+  color: #ffb8fb;
+  border: none;
+  border-radius: 6px;
+  padding: 10px 20px;
+  font-size: 18px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.2s;
+}
+
+.pkfairy #homeBtn:hover,
+.pkfairy #randomfairy:hover {
+  background-color: #7110c1;
+  transform: scale(1.05);
+}
+
+.pkfairy #fairyResult {
+  font-size: 30;
+  font-weight: bold;
+  color: #ff23cb;
+}
+
+.fairy-layout {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 40px auto;
+  max-width: 1000px;
+  padding: 0 20px;
+}
+
+.fairy-layout img,
+.floette,
+.togepi {
+  width: 250px;
+  height: auto;
+}
+
+/* Link Styling */
+
+.pkfairy .dex-link.official {
+  background-color: #ff23cb;
+  color: #ffb8fb;
+  border: none;
+}
+
+.pkfairy .dex-link.official:hover {
+  background-color: #7110c1;
+}
+
+.pkfairy .dex-link.serebii {
+  background-color: #ff23cb;
+  color: #ffb8fb;
+  border: none;
+}
+
+.pkfairy .dex-link.serebii:hover {
+  background-color: #7110c1;
+}
+
+.pkfairy .dex-link.bulbapedia {
+  background-color: #ff23cb;
+  color: #ffb8fb;
+  border: none;
+}
+
+.pkfairy .dex-link.bulbapedia:hover {
+  background-color: #7110c1;
+}
+
+/*ghost.html*/
+
+.pkghost {
+  background: radial-gradient(ellipse at center, #0d0d0d 0%, #000000 100%);
+  color: white;
+  background-image: url("type pictures/fog-texture.png"); /* optional subtle fog effect */
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.pkghost h1 {
+  color: #f3e5f5;
+  font-weight: bold;
+  text-shadow: 0 0 10px #7c4dff, 0 0 25px #311b92;
+}
+
+.pkghost #homeBtn,
+.pkghost #randomghost {
+  background: linear-gradient(145deg, #311b92, #1a237e);
+  color: white;
+  font-weight: bold;
+  border: none;
+  border-radius: 6px;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  box-shadow: 0 0 10px rgba(124, 77, 255, 0.4);
+  text-shadow: 0 0 5px #fff;
+  transition: background-color 0.3s, transform 0.2s, box-shadow 0.3s;
+}
+
+.pkghost #homeBtn:hover,
+.pkghost #randomghost:hover {
+  background-color: #4527a0;
+  transform: translateY(-2px);
+  box-shadow: 0 0 20px rgba(255, 255, 255, 0.6);
+
+}
+
+.pkghost #ghostResult {
+  color: #fbeaff;
+  font-style: italic;
+  text-shadow: 0 0 8px #7c4dff;
+}
+
+.pkghost #ghostResult img.ghost-sprite {
+  width: 250px;
+  height: auto;
+  border-radius: 10px;
+  margin-top: 20px;
+}
+
+.ghost-layout {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 40px auto;
+  max-width: 1000px;
+  padding: 0 20px;
+}
+
+.ghost-layout img,
+.ghost-layout img.misdreavus,
+.ghost-layout img.banette {
+  width: 250px;
+  height: auto;
+}
+
+.pkghost .dex-link.official,
+.pkghost .dex-link.serebii,
+.pkghost .dex-link.bulbapedia {
+  background-color: rgba(49, 27, 146, 0.8);
+  color: #f8f8ff;
+  border: none;
+  text-shadow: 0 0 5px #fff;
+}
+
+.pkghost .dex-link.official:hover,
+.pkghost .dex-link.serebii:hover,
+.pkghost .dex-link.bulbapedia:hover {
+  background-color: rgba(124, 77, 255, 0.9);
+  transform: translateY(-1px);
+}
+
+/*ground.html*/
+
+.pkground {
+  background-image: url("type pictures/cave-overlay.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.pkground h1 {
+  color: #8d6e63;
+  text-shadow: 1px 1px 2px #d7ccc8, 0 0 10px rgba(94, 75, 56, 0.2);
+  font-weight: bold;
+}
+
+/* Home and Random Button Styles */
+.pkground #homeBtn,
+.pkground #randomground {
+  background: linear-gradient(145deg, #a1887f, #8d6e63);
+  text-shadow: 0 0 5px #fff;
+  color: #2e1e0f;
+  font-weight: bold;
+  border: none;
+  border-radius: 6px;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  box-shadow: 0 0 10px rgba(96, 64, 48, 0.3);
+  transition: background-color 0.3s, transform 0.2s, box-shadow 0.3s;
+}
+
+.pkground #homeBtn:hover,
+.pkground #randomground:hover {
+  background-color: #bcaaa4;
+  transform: translateY(-2px);
+  box-shadow: 0 0 20px rgba(255, 248, 220, 0.4);
+}
+
+.pkground #groundResult {
+  color: #2e1e0f;
+  font-weight: bold;
+  font-size: 25px;
+  text-shadow: 0 0 5px #fff;
+}
+
+.pkground #groundResult img.ground-sprite {
+  width: 250px;
+  height: auto;
+  border-radius: 10px;
+  margin-top: 20px;
+}
+
+/* Layout Styling */
+
+.ground-layout {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 40px auto;
+  max-width: 1000px;
+  padding: 0 20px;
+  border-radius: 12px;
+  box-shadow: inset 0 0 30px rgba(96, 73, 56, 0.3);
+}
+
+.ground-layout img,
+.ground-layout img.cubone,
+.ground-layout img.drilbur {
+  width: 250px;
+  height: auto;
+}
+
+/* Link Styling */
+
+.pkground .dex-link.official,
+.pkground .dex-link.serebii,
+.pkground .dex-link.bulbapedia {
+  background-color: rgba(193, 154, 107, 0.85);
+  color: #2e1e0f;
+  border: none;
+  text-shadow: 0 0 5px #fff;
+  transition: background-color 0.3s, transform 0.2s;
+}
+
+.pkground .dex-link.official:hover,
+.pkground .dex-link.serebii:hover,
+.pkground .dex-link.bulbapedia:hover {
+  background-color: rgba(160, 120, 80, 0.9);
+  transform: translateY(-1px);
+}
+
+
+/*ice.html*/
+
+.pkice {
+  background-image: url("type pictures/ice-overlay.png");
+  background-size: cover;         /* ensures it fills the entire area */
+  background-position: center;    /* keeps it centered when scaling */
+  background-repeat: no-repeat;   /* prevents tiling */
+  background-attachment: fixed;   /* keeps it anchored on scroll (optional) */
+}
+
+.pkice h1 {
+  color: #006064;
+  text-shadow: 0 0 12px #b2ebf2, 0 0 20px rgba(0, 188, 212, 0.6);
+  font-weight: bold;
+}
+
+/* Home and Random Button Styles */
+.pkice #homeBtn,
+.pkice #randomice {
+  background: linear-gradient(145deg, #4dd0e1, #00acc1);
+  color: white;
+  border: none;
+  border-radius: 6px;
+  font-size: 16px;
+  padding: 10px 20px;
+  font-weight: bold;
+  cursor: pointer;
+  box-shadow: 0 0 10px rgba(0, 188, 212, 0.4);
+  transition: background-color 0.3s, transform 0.2s, box-shadow 0.3s;
+}
+
+.pkice #homeBtn:hover,
+.pkice #randomice:hover {
+  background-color: #80deea;
+  transform: translateY(-2px);
+  box-shadow: 0 0 20px rgba(255, 255, 255, 0.5);
+  align-items: center;
+}
+
+.pkice #iceResult {
+ color: #006064;
+ text-shadow: 0 0 12px #b2ebf2, 0 0 20px rgba(0, 188, 212, 0.6);
+ font-weight: bold;
+ font-size: 25px;
+}
+
+.pkice #iceResult img.ice-sprite {
+  width: 250px;
+  height: auto;
+  border-radius: 10px;
+  margin-top: 20px;
+}
+
+/* Layout Styling */
+
+.ice-layout {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 40px auto;
+  max-width: 1000px;
+  padding: 0 20px;
+  border-radius: 10px;
+  backdrop-filter: blur(3px);
+}
+
+.ice-layout img.snom,
+.ice-layout img.spheal {
+  width: 250px;
+  height: auto;
+}
+
+/* Link Styling */
+
+.pkice .dex-link.official {
+  background: linear-gradient(145deg, #4dd0e1, #00acc1);
+  color: white;
+  border: none;
+  border-radius: 6px;
+  font-size: 16px;
+  padding: 10px 20px;
+  font-weight: bold;
+  cursor: pointer;
+  box-shadow: 0 0 10px rgba(0, 188, 212, 0.4);
+  transition: background-color 0.3s, transform 0.2s, box-shadow 0.3s;
+}
+
+.pkice .dex-link.official:hover {
+  background-color: #80deea;
+  transform: translateY(-2px);
+  box-shadow: 0 0 20px rgba(255, 255, 255, 0.5);
+  align-items: center;
+}
+
+.pkice .dex-link.serebii {
+  background: linear-gradient(145deg, #4dd0e1, #00acc1);
+  color: white;
+  border: none;
+  border-radius: 6px;
+  font-size: 16px;
+  padding: 10px 20px;
+  font-weight: bold;
+  cursor: pointer;
+  box-shadow: 0 0 10px rgba(0, 188, 212, 0.4);
+  transition: background-color 0.3s, transform 0.2s, box-shadow 0.3s;
+}
+
+.pkice .dex-link.serebii:hover {
+  background-color: #80deea;
+  transform: translateY(-2px);
+  box-shadow: 0 0 20px rgba(255, 255, 255, 0.5);
+  align-items: center;
+}
+
+.pkice .dex-link.bulbapedia {
+  background: linear-gradient(145deg, #4dd0e1, #00acc1);
+  color: white;
+  border: none;
+  border-radius: 6px;
+  font-size: 16px;
+  padding: 10px 20px;
+  font-weight: bold;
+  cursor: pointer;
+  box-shadow: 0 0 10px rgba(0, 188, 212, 0.4);
+  transition: background-color 0.3s, transform 0.2s, box-shadow 0.3s;
+}
+
+.pkice .dex-link.bulbapedia:hover {
+  background-color: #80deea;
+  transform: translateY(-2px);
+  box-shadow: 0 0 20px rgba(255, 255, 255, 0.5);
+  align-items: center;
+}
+
+
+/*poison.html*/
+
+.pkpoison {
+  background: radial-gradient(circle at center, #e1bee7 0%, #8e24aa 100%);
+  background-image: url("type pictures/poison-overlay.png"); /* optional toxic mist texture */
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  color: #4a148c;
+}
+
+.pkpoison h1 {
+  color: #6a1b9a;
+  text-shadow: 0 0 10px #ce93d8, 0 0 20px rgba(156, 39, 176, 0.6);
+  font-weight: bold;
+}
+
+/* Home and Random Button Styles */
+.pkpoison #homeBtn,
+.pkpoison #randompoison {
+  background: linear-gradient(145deg, #8e24aa, #6a1b9a);
+  color: white;
+  font-weight: bold;
+  border: none;
+  border-radius: 6px;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  box-shadow: 0 0 10px rgba(149, 117, 205, 0.4);
+  transition: background-color 0.3s, transform 0.2s, box-shadow 0.3s;
+}
+
+.pkpoison #homeBtn:hover,
+.pkpoison #randompoison:hover {
+  background-color: #ba68c8;
+  transform: translateY(-2px);
+  box-shadow: 0 0 20px rgba(255, 255, 255, 0.5);
+}
+
+.pkpoison #poisonResult {
+  color: #6a1b9a;
+  text-shadow: 0 0 10px #ce93d8, 0 0 20px rgba(156, 39, 176, 0.6);
+  font-weight: bold;
+  font-size: 25px;
+}
+
+.pkpoison #poisonResult img.poison-sprite {
+ width: 250px;
+ height: auto;
+ border-radius: 10px;
+ margin-top: 20px;
+}
+
+/* Layout Styling */
+
+.poison-layout {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 40px auto;
+  max-width: 1000px;
+  padding: 0 20px;
+  border-radius: 10px;
+  backdrop-filter: blur(3px);
+}
+
+.poison-layout img.ekans,
+.poison-layout img.grimer {
+  width: 250px;
+  height: auto;
+}
+
+/* Link Styling */
+
+.pkpoison .dex-link.official,
+.pkpoison .dex-link.serebii,
+.pkpoison .dex-link.bulbapedia {
+  background-color: rgba(186, 104, 200, 0.85);
+  color: #29034a;
+  border: none;
+  text-shadow: 0 0 5px white;
+  transition: background-color 0.3s, transform 0.2s;
+}
+
+.pkpoison .dex-link.official:hover,
+.pkpoison .dex-link.serebii:hover,
+.pkpoison .dex-link.bulbapedia:hover {
+  background-color: rgba(225, 190, 231, 0.9);
+  transform: translateY(-1px);
+}
+
+
+/*steel.html*/
+
+.pksteel {
+  background: radial-gradient(circle at center, #eceff1 0%, #b0bec5 100%);
+  background-image: url("type pictures/steel-overlay.png"); /* optional brushed steel or circuit texture */
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  color: #263238;
+}
+
+.pksteel h1 {
+  color: #455a64;
+  text-shadow: 0 0 8px #cfd8dc, 0 0 16px rgba(144, 164, 174, 0.4);
+  font-weight: bold;
+}
+
+.pksteel #homeBtn,
+.pksteel #randomsteel {
+  background: linear-gradient(145deg, #90a4ae, #607d8b);
+  color: white;
+  font-weight: bold;
+  border: none;
+  border-radius: 6px;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  box-shadow: 0 0 10px rgba(96, 125, 139, 0.4);
+  transition: background-color 0.3s, transform 0.2s, box-shadow 0.3s;
+}
+
+.pksteel #homeBtn:hover,
+.pksteel #randomsteel:hover {
+  background-color: #b0bec5;
+  transform: translateY(-2px);
+  box-shadow: 0 0 18px rgba(224, 224, 224, 0.6);
+}
+
+.pksteel #steelResult {
+  width: 250px;
+  height: auto;
+  border-radius: 10px;
+  margin: 20px auto 0 auto; /* centers horizontally */
+  text-align: center;
+  font-weight: bold;
+  font-size: 27px;
+}
+
+.pksteel #steelResult img.steel-sprite {
+   width: 250px;
+ height: auto;
+ border-radius: 10px;
+ margin-top: 20px;
+}
+
+
+/* Layout Styling */
+
+.steel-layout {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 40px auto;
+  max-width: 1000px;
+  padding: 0 20px;
+  border-radius: 12px;
+}
+
+.steel-layout img.magnemite,
+.steel-layout img.varoom {
+  width: 250px;
+  height: auto;
+}
+
+/* Link Styling */
+
+.pksteel .dex-link.official {
+  background: linear-gradient(145deg, #90a4ae, #607d8b);
+  color: white;
+  font-weight: bold;
+  border: none;
+  border-radius: 6px;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  box-shadow: 0 0 10px rgba(96, 125, 139, 0.4);
+  transition: background-color 0.3s, transform 0.2s, box-shadow 0.3s;
+}
+
+.pksteel .dex-link.official:hover {
+  background-color: #388e3c;
+}
+.pksteel .dex-link.serebii {
+  background: linear-gradient(145deg, #90a4ae, #607d8b);
+  color: white;
+  font-weight: bold;
+  border: none;
+  border-radius: 6px;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  box-shadow: 0 0 10px rgba(96, 125, 139, 0.4);
+  transition: background-color 0.3s, transform 0.2s, box-shadow 0.3s;
+}
+
+.pksteel .dex-link.serebii:hover {
+  background-color: #81c784;
+  color: white;
+}
+
+.pksteel .dex-link.bulbapedia {
+  background: linear-gradient(145deg, #90a4ae, #607d8b);
+  color: white;
+  font-weight: bold;
+  border: none;
+  border-radius: 6px;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  box-shadow: 0 0 10px rgba(96, 125, 139, 0.4);
+  transition: background-color 0.3s, transform 0.2s, box-shadow 0.3s;
+}
+
+.pksteel .dex-link.bulbapedia:hover {
+  background-color: #388e3c;
+}
+
+/*psychic.html*/
+
+.pkpsychic {
+  background: radial-gradient(ellipse at center, #f3e5f5 0%, #ce93d8 100%);
+  background-image: url("type pictures/psychic-overlay.png"); /* optional swirling energy pattern */
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  color: #4a148c;
+}
+
+.pkpsychic h1 {
+  color: #6a1b9a;
+  text-shadow: 0 0 12px #e1bee7, 0 0 25px rgba(186, 104, 200, 0.5);
+  font-weight: bold;
+}
+
+.pkpsychic #homeBtn,
+.pkpsychic #randompsychic {
+  background: linear-gradient(145deg, #ba68c8, #8e24aa);
+  color: white;
+  font-weight: bold;
+  border: none;
+  border-radius: 6px;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  box-shadow: 0 0 12px rgba(186, 104, 200, 0.4);
+  text-shadow: 0 0 12px #e1bee7, 0 0 25px rgba(186, 104, 200, 0.5);
+  transition: background-color 0.3s, transform 0.2s, box-shadow 0.3s;
+}
+
+.pkpsychic #homeBtn:hover,
+.pkpsychic #randompsychic:hover {
+  background-color: #e1bee7;
+  transform: translateY(-2px);
+  box-shadow: 0 0 22px rgba(255, 255, 255, 0.6);
+}
+
+.psychic-layout {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 40px auto;
+  max-width: 1000px;
+  padding: 0 20px;
+  border-radius: 12px;
+  backdrop-filter: blur(3px);
+}
+
+.psychic-layout img.espeon,
+.psychic-layout img.abra {
+  width: 250px;
+  height: auto;
+  border-radius: 12px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.pkpsychic #psychicResult {
+  font-weight: bold;
+  font-size: 25px;
+  color: #6a1b9a;
+  text-shadow: 0 0 12px #e1bee7, 0 0 25px rgba(186, 104, 200, 0.5);
+}
+
+.pkpsychic #psychicResult img.psychic-sprite {
+ width: 250px;
+ height: auto;
+ border-radius: 10px;
+ margin-top: 20px;
+}
+
+/* Link Styling */
+
+.pkpsychic .dex-link.official {
+  background: linear-gradient(145deg, #ba68c8, #8e24aa);
+  color: white;
+  font-weight: bold;
+  border: none;
+  border-radius: 6px;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  box-shadow: 0 0 12px rgba(186, 104, 200, 0.4);
+  transition: background-color 0.3s, transform 0.2s, box-shadow 0.3s;
+}
+
+.pkpsychic .dex-link.official:hover {
+  background-color: #e1bee7;
+  transform: translateY(-2px);
+  box-shadow: 0 0 22px rgba(255, 255, 255, 0.6);
+}
+
+.pkpsychic .dex-link.serebii {
+  background: linear-gradient(145deg, #ba68c8, #8e24aa);
+  color: white;
+  font-weight: bold;
+  border: none;
+  border-radius: 6px;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  box-shadow: 0 0 12px rgba(186, 104, 200, 0.4);
+  transition: background-color 0.3s, transform 0.2s, box-shadow 0.3s;
+}
+
+.pkpsychic .dex-link.serebii:hover {
+  background-color: #e1bee7;
+  transform: translateY(-2px);
+  box-shadow: 0 0 22px rgba(255, 255, 255, 0.6);
+}
+
+.pkpsychic .dex-link.bulbapedia {
+  background: linear-gradient(145deg, #ba68c8, #8e24aa);
+  color: white;
+  font-weight: bold;
+  border: none;
+  border-radius: 6px;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  box-shadow: 0 0 12px rgba(186, 104, 200, 0.4);
+  transition: background-color 0.3s, transform 0.2s, box-shadow 0.3s;
+}
+
+.pkpsychic .dex-link.bulbapedia:hover {
+  background-color: #e1bee7;
+  transform: translateY(-2px);
+  box-shadow: 0 0 22px rgba(255, 255, 255, 0.6);
+}
