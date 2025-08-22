@@ -59,6 +59,32 @@
       color: #d32f2f;
       text-decoration: underline;
     }
+    nav {
+      width: 100%;
+      background: #fff;
+      padding: 1rem 0;
+      box-shadow: 0 2px 8px #0001;
+      position: sticky;
+      top: 0;
+      z-index: 1000;
+    }
+    nav ul {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+      display: flex;
+      justify-content: center;
+      gap: 2rem;
+    }
+    nav a {
+      text-decoration: none;
+      color: #333;
+      font-weight: 500;
+      transition: color 0.2s;
+    }
+    nav a:hover {
+      color: #ef5350;
+    }
     @media (max-width: 600px) {
       .hub-links {
         flex-direction: column;
@@ -69,10 +95,21 @@
         padding: 1.2rem 1rem;
         min-width: unset;
       }
+      nav ul {
+        flex-direction: column;
+        gap: 1rem;
+      }
     }
   </style>
 </head>
 <body>
+  <nav>
+    <ul>
+      <li><a href="C:\Users\codyk\OneDrive\Desktop\Websites\Websites\pkmn\Pokemon\pokemon-randomizer\team-script/index.html">Team Script</a></li>
+      <li><a href="C:\Users\codyk\OneDrive\Desktop\Websites\Websites\pkmn\Pokemon\random-type\pkmnpg-index/index.html">PKMNPG Index</a></li>
+      <li><a href="C:\Users\codyk\OneDrive\Desktop\Websites\Websites\pkmn\Pokemon\C:\Users\codyk\OneDrive\Desktop\Websites\Websites\pkmn\Pokemon\Team Builder\team-index/index.html">Team Index</a></li>
+    </ul>
+  </nav>
   <h1>My Website Hub</h1>
   <div class="hub-links">
     <!-- Example card: Duplicate and edit for each site -->
