@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Pokémon Team Builder</title>
+  <style>
+    body { font-family: Arial, sans-serif; margin: 2rem; background: #f5f5f5; }
+    h1 { color: #ef5350; }
+    .team { display: flex; gap: 1rem; margin-top: 1rem; flex-wrap: wrap; }
+    .pokemon-card { background: #fff; border-radius: 8px; box-shadow: 0 2px 8px #0001; padding: 1rem; width: 120px; text-align: center; margin-bottom: 1rem; }
+    .search-section { margin-bottom: 2rem; display: flex; flex-direction: column; gap: 0.5rem; }
+    .type-filter, .search-section { width: 100%; max-width: 400px; }
+    button, select, input[type="text"] { font-size: 1rem; min-height: 2.5em; }
+    button { background: #ef5350; color: #fff; border: none; border-radius: 4px; padding: 0.5rem 1rem; cursor: pointer; }
+    button:disabled { background: #ccc; }
+    @media (max-width: 600px) {
+      body { margin: 0.5rem; }
+      .team { flex-direction: column; align-items: center; }
+      .pokemon-card { width: 95vw; max-width: 350px; }
+      .search-section, .type-filter { max-width: 100vw; }
+    }
+  </style>
+</head>
+<body>
+  <h1>Pokémon Team Builder</h1>
+  <div class="type-filter">
+    <label for="type-select">Filter by Type:</label>
+    <select id="type-select">
+      <option value="">All</option>
+      <option value="fire">Fire</option>
+      <option value="water">Water</option>
+      <option value="grass">Grass</option>
+      <option value="electric">Electric</option>
+      <option value="psychic">Psychic</option>
+      <option value="ice">Ice</option>
+      <option value="dragon">Dragon</option>
+      <option value="dark">Dark</option>
+      <option value="fairy">Fairy</option>
+      <option value="fighting">Fighting</option>
+      <option value="flying">Flying</option>
+      <option value="poison">Poison</option>
+      <option value="ground">Ground</option>
+      <option value="rock">Rock</option>
+      <option value="bug">Bug</option>
+      <option value="ghost">Ghost</option>
+      <option value="steel">Steel</option>
+      <option value="normal">Normal</option>
+    </select>
+  </div>
+  <div class="search-section">
+    <input type="text" id="pokemon-search" placeholder="Search Pokémon by name or ID" />
+    <button id="add-btn">Add to Team</button>
+  </div>
+  <h2>Your Team (max 6)</h2>
+  <div class="team" id="team-container">
+    <!-- Pokémon cards will appear here -->
+  </div>
+  <button id="save-team-btn" class="fixed-save-btn">Save Team</button>
+  <script src="team-index.js"></script>
+  <style>
+    .fixed-save-btn {
+      position: fixed;
+      left: 50%;
+      bottom: 24px;
+      transform: translateX(-50%);
+      z-index: 1000;
+      background: #ef5350;
+      color: #fff;
+      border: none;
+      border-radius: 24px;
+      padding: 0.75rem 2.5rem;
+      font-size: 1.2rem;
+      box-shadow: 0 4px 16px #0002;
+      cursor: pointer;
+      transition: background 0.2s;
+    }
+    .fixed-save-btn:active {
+      background: #d32f2f;
+    }
+    @media (max-width: 600px) {
+      .fixed-save-btn {
+        width: 90vw;
+        left: 5vw;
+        transform: none;
+        font-size: 1rem;
+        padding: 0.75rem 0;
+      }
+    }
+  </style>
+</body>
+</html>
