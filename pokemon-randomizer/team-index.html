@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Pokémon Team Randomizer</title>
+  <link rel="stylesheet" href="team.css">
+</head>
+<body>
+  <main>
+    <section id="controls">
+      <label for="mode">Select Play Mode:</label>
+      <select id="mode">
+        <option value="casual">Casual</option>
+        <option value="challenge">Challenge</option>
+      </select>
+      
+      <label for="region">Region:</label>
+      <select id="region">
+        <option value="11">All</option>
+        <option value="1">Kanto</option>
+        <option value="2">Johto</option>
+        <option value="3">Hoenn</option>
+        <option value="4">Sinnoh</option>
+        <option value="5">Unova</option>
+        <option value="6">Kalos</option>
+        <option value="7">Alola</option>
+        <option value="8">Galar</option>
+        <option value="9">Hisui</option>
+        <option value="10">Paldea</option>
+      </select>
+      
+      <label for="game">Game Version:</label>
+      <select id="game">
+        <option value="any">Any</option>
+        <option value="red">Red</option>
+        <option value="blue">Blue</option>
+        <option value="yellow">Yellow</option>
+        <option value="gold">Gold</option>
+        <option value="silver">Silver</option>
+        <option value="crystal">Crystal</option>
+        <option value="ruby">Ruby</option>
+        <option value="sapphire">Sapphire</option>
+        <option value="firered">FireRed</option>
+        <option value="leafgreen">LeafGreen</option>
+        <option value="emerald">Emerald</option>
+        <option value="diamond">Diamond</option>
+        <option value="pearl">Pearl</option>
+        <option value="platinum">Platinum</option>
+        <option value="heartgold">HeartGold</option>
+        <option value="soulsilver">SoulSilver</option>
+        <option value="black">Black</option>
+        <option value="white">White</option>
+        <option value="black-2">Black 2</option>
+        <option value="white-2">White 2</option>
+        <option value="x">X</option>
+        <option value="y">Y</option>
+        <option value="alphasapphire">Alpha Sapphire</option>
+        <option value="omegaruby">Omega Ruby</option>
+        <option value="letsgopikachu">Let's Go Pikachu</option>
+        <option value="letsgoeevee">Let's Go Eevee</option>
+        <option value="sword">Sword</option>
+        <option value="shield">Shield</option>
+        <option value="brilliantdiamond">Brilliant Diamond</option>
+        <option value="shiningpearl">Shining Pearl</option>
+        <option value="legendsarceus">Legends Arceus</option>
+        <option value="scarlet">Scarlet</option>
+        <option value="violet">Violet</option>
+      </select>
+      
+      <label for="type-filter">Type Filter:</label>
+      <select id="type-filter">
+        <option value="any">Any</option>
+        <option value="normal">Normal</option>
+        <option value="grass">Grass</option>
+        <option value="fire">Fire</option>
+        <option value="water">Water</option>
+        <option value="electric">Electric</option>
+        <option value="ice">Ice</option>
+        <option value="fighting">Fighting</option>
+        <option value="poison">Poison</option>
+        <option value="ground">Ground</option>
+        <option value="flying">Flying</option>
+        <option value="psychic">Psychic</option>
+        <option value="bug">Bug</option>
+        <option value="rock">Rock</option>
+        <option value="ghost">Ghost</option>
+        <option value="dragon">Dragon</option>
+        <option value="dark">Dark</option>
+        <option value="steel">Steel</option>
+        <option value="fairy">Fairy</option>
+      </select>
+      
+      <section id="challenge-options" style="display: none;">
+        <label><input type="checkbox" id="early-access"> Early Access Only</label>
+        <label><input type="checkbox" id="base-forms"> Base Forms Only</label>
+        <label><input type="checkbox" id="mono-type"> Mono-Type</label>
+      </section>
+      
+      <button id="generate-btn">Generate Team</button>
+      <button id="generate-single-btn">Generate Single Pokémon</button>
+    </section>
+    
+    <section id="pinned-section" class="pinned-box">
+      <h2>Pinned Team</h2>
+      <div id="pinned-container"></div>
+      <button id="clear-pinned" type="button">Clear Pinned</button>
+    </section>
+    
+    <section id="team-display"></section>
+  </main>
+  
+  <footer>
+    <section id="feedback-section" class="feedback-section">
+      <h2>Report a Pokédex Issue</h2>
+      <form id="feedback-form">
+        <label for="pokemon-name">Pokémon Name:</label>
+        <input type="text" id="pokemon-name" name="pokemon-name" required>
+        <label for="game-name">Game Version:</label>
+        <input type="text" id="game-name" name="game-name" required>
+        <label for="issue-desc">Describe the Issue:</label>
+        <textarea id="issue-desc" name="issue-desc" rows="2" required></textarea>
+        <button type="submit">Submit Feedback</button>
+      </form>
+      <div id="feedback-success" style="display:none; color:green;">Thank you! Your feedback has been sent.</div>
+    </section>
+  </footer>
+  
+  <script src="team-script.js"></script>
+</body>
+</html>

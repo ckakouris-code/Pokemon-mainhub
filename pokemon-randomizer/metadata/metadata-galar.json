@@ -1,0 +1,1118 @@
+{
+  "grookey": {
+    "availableEarly": false,
+    "isBaseForm": true,
+    "isLegendary": false,
+    "games": [
+      "sword",
+      "shield"
+    ],
+    "isFinalForm": false,
+    "evolves_from": null,
+    "id": 810
+  },
+  "thwackey": {
+    "availableEarly": false,
+    "isBaseForm": false,
+    "isLegendary": false,
+    "games": [
+      "sword",
+      "shield"
+    ],
+    "isFinalForm": false,
+    "evolves_from": "grookey",
+    "id": 811
+  },
+  "rillaboom": {
+    "availableEarly": false,
+    "isBaseForm": false,
+    "isLegendary": false,
+    "games": [
+      "sword",
+      "shield"
+    ],
+    "isFinalForm": true,
+    "evolves_from": "thwackey",
+    "id": 812
+  },
+  "scorbunny": {
+    "availableEarly": false,
+    "isBaseForm": true,
+    "isLegendary": false,
+    "games": [
+      "sword",
+      "shield"
+    ],
+    "isFinalForm": false,
+    "evolves_from": null,
+    "id": 813
+  },
+  "raboot": {
+    "availableEarly": false,
+    "isBaseForm": false,
+    "isLegendary": false,
+    "games": [
+      "sword",
+      "shield"
+    ],
+    "isFinalForm": false,
+    "evolves_from": "scorbunny",
+    "id": 814
+  },
+  "cinderace": {
+    "availableEarly": false,
+    "isBaseForm": false,
+    "isLegendary": false,
+    "games": [
+      "sword",
+      "shield"
+    ],
+    "isFinalForm": true,
+    "evolves_from": "raboot",
+    "id": 815
+  },
+  "sobble": {
+    "availableEarly": false,
+    "isBaseForm": true,
+    "isLegendary": false,
+    "games": [
+      "sword",
+      "shield"
+    ],
+    "isFinalForm": false,
+    "evolves_from": null,
+    "id": 816
+  },
+  "drizzile": {
+    "availableEarly": false,
+    "isBaseForm": false,
+    "isLegendary": false,
+    "games": [
+      "sword",
+      "shield"
+    ],
+    "isFinalForm": false,
+    "evolves_from": "sobble",
+    "id": 817
+  },
+  "inteleon": {
+    "availableEarly": false,
+    "isBaseForm": false,
+    "isLegendary": false,
+    "games": [
+      "sword",
+      "shield"
+    ],
+    "isFinalForm": true,
+    "evolves_from": "drizzile",
+    "id": 818
+  },
+  "skwovet": {
+    "availableEarly": false,
+    "isBaseForm": true,
+    "isLegendary": false,
+    "games": [
+      "scarlet",
+      "violet",
+      "sword",
+      "shield"
+    ],
+    "isFinalForm": false,
+    "evolves_from": null,
+    "id": 819
+  },
+  "greedent": {
+    "availableEarly": false,
+    "isBaseForm": false,
+    "isLegendary": false,
+    "games": [
+      "scarlet",
+      "violet",
+      "sword",
+      "shield"
+    ],
+    "isFinalForm": true,
+    "evolves_from": "skwovet",
+    "id": 820
+  },
+  "rookidee": {
+    "availableEarly": false,
+    "isBaseForm": true,
+    "isLegendary": false,
+    "games": [
+      "scarlet",
+      "violet",
+      "sword",
+      "shield"
+    ],
+    "isFinalForm": false,
+    "evolves_from": null,
+    "id": 821
+  },
+  "corvisquire": {
+    "availableEarly": false,
+    "isBaseForm": false,
+    "isLegendary": false,
+    "games": [
+      "scarlet",
+      "violet",
+      "sword",
+      "shield"
+    ],
+    "isFinalForm": false,
+    "evolves_from": "rookidee",
+    "id": 822
+  },
+  "corviknight": {
+    "availableEarly": false,
+    "isBaseForm": false,
+    "isLegendary": false,
+    "games": [
+      "scarlet",
+      "violet",
+      "sword",
+      "shield"
+    ],
+    "isFinalForm": true,
+    "evolves_from": "corvisquire",
+    "id": 823
+  },
+  "blipbug": {
+    "availableEarly": false,
+    "isBaseForm": true,
+    "isLegendary": false,
+    "games": [
+      "sword",
+      "shield"
+    ],
+    "isFinalForm": false,
+    "evolves_from": null,
+    "id": 824
+  },
+  "dottler": {
+    "availableEarly": false,
+    "isBaseForm": false,
+    "isLegendary": false,
+    "games": [
+      "sword",
+      "shield"
+    ],
+    "isFinalForm": false,
+    "evolves_from": "blipbug",
+    "id": 825
+  },
+  "orbeetle": {
+    "availableEarly": false,
+    "isBaseForm": false,
+    "isLegendary": false,
+    "games": [
+      "sword",
+      "shield"
+    ],
+    "isFinalForm": true,
+    "evolves_from": "dottler",
+    "id": 826
+  },
+  "nickit": {
+    "availableEarly": false,
+    "isBaseForm": true,
+    "isLegendary": false,
+    "games": [
+      "sword",
+      "shield"
+    ],
+    "isFinalForm": false,
+    "evolves_from": null,
+    "id": 827
+  },
+  "thievul": {
+    "availableEarly": false,
+    "isBaseForm": false,
+    "isLegendary": false,
+    "games": [
+      "sword",
+      "shield"
+    ],
+    "isFinalForm": true,
+    "evolves_from": "nickit",
+    "id": 828
+  },
+  "gossifleur": {
+    "availableEarly": false,
+    "isBaseForm": true,
+    "isLegendary": false,
+    "games": [
+      "sword",
+      "shield"
+    ],
+    "isFinalForm": false,
+    "evolves_from": null,
+    "id": 829
+  },
+  "eldegoss": {
+    "availableEarly": false,
+    "isBaseForm": false,
+    "isLegendary": false,
+    "games": [
+      "sword",
+      "shield"
+    ],
+    "isFinalForm": true,
+    "evolves_from": "gossifleur",
+    "id": 830
+  },
+  "wooloo": {
+    "availableEarly": false,
+    "isBaseForm": true,
+    "isLegendary": false,
+    "games": [
+      "sword",
+      "shield"
+    ],
+    "isFinalForm": false,
+    "evolves_from": null,
+    "id": 831
+  },
+  "dubwool": {
+    "availableEarly": false,
+    "isBaseForm": false,
+    "isLegendary": false,
+    "games": [
+      "sword",
+      "shield"
+    ],
+    "isFinalForm": true,
+    "evolves_from": "wooloo",
+    "id": 832
+  },
+  "chewtle": {
+    "availableEarly": false,
+    "isBaseForm": true,
+    "isLegendary": false,
+    "games": [
+      "scarlet",
+      "violet",
+      "sword",
+      "shield"
+    ],
+    "isFinalForm": false,
+    "evolves_from": null,
+    "id": 833
+  },
+  "drednaw": {
+    "availableEarly": false,
+    "isBaseForm": false,
+    "isLegendary": false,
+    "games": [
+      "scarlet",
+      "violet",
+      "sword",
+      "shield"
+    ],
+    "isFinalForm": true,
+    "evolves_from": "chewtle",
+    "id": 834
+  },
+  "yamper": {
+    "availableEarly": false,
+    "isBaseForm": true,
+    "isLegendary": false,
+    "games": [
+      "sword",
+      "shield"
+    ],
+    "isFinalForm": false,
+    "evolves_from": null,
+    "id": 835
+  },
+  "boltund": {
+    "availableEarly": false,
+    "isBaseForm": false,
+    "isLegendary": false,
+    "games": [
+      "sword",
+      "shield"
+    ],
+    "isFinalForm": true,
+    "evolves_from": "yamper",
+    "id": 836
+  },
+  "rolycoly": {
+    "availableEarly": false,
+    "isBaseForm": true,
+    "isLegendary": false,
+    "games": [
+      "scarlet",
+      "violet",
+      "sword",
+      "shield"
+    ],
+    "isFinalForm": false,
+    "evolves_from": null,
+    "id": 837
+  },
+  "carkol": {
+    "availableEarly": false,
+    "isBaseForm": false,
+    "isLegendary": false,
+    "games": [
+      "scarlet",
+      "violet",
+      "sword",
+      "shield"
+    ],
+    "isFinalForm": false,
+    "evolves_from": "rolycoly",
+    "id": 838
+  },
+  "coalossal": {
+    "availableEarly": false,
+    "isBaseForm": false,
+    "isLegendary": false,
+    "games": [
+      "scarlet",
+      "violet",
+      "sword",
+      "shield"
+    ],
+    "isFinalForm": true,
+    "evolves_from": "carkol",
+    "id": 839
+  },
+  "applin": {
+    "availableEarly": false,
+    "isBaseForm": true,
+    "isLegendary": false,
+    "games": [
+      "scarlet",
+      "violet",
+      "sword",
+      "shield"
+    ],
+    "isFinalForm": false,
+    "evolves_from": null,
+    "id": 840
+  },
+  "flapple": {
+    "availableEarly": false,
+    "isBaseForm": false,
+    "isLegendary": false,
+    "games": [
+      "scarlet",
+      "violet",
+      "sword",
+      "shield"
+    ],
+    "isFinalForm": true,
+    "evolves_from": "applin",
+    "id": 841
+  },
+  "appletun": {
+    "availableEarly": false,
+    "isBaseForm": false,
+    "isLegendary": false,
+    "games": [
+      "scarlet",
+      "violet",
+      "sword",
+      "shield"
+    ],
+    "isFinalForm": true,
+    "evolves_from": "applin",
+    "id": 842
+  },
+  "silicobra": {
+    "availableEarly": false,
+    "isBaseForm": true,
+    "isLegendary": false,
+    "games": [
+      "scarlet",
+      "violet",
+      "sword",
+      "shield"
+    ],
+    "isFinalForm": false,
+    "evolves_from": null,
+    "id": 843
+  },
+  "sandaconda": {
+    "availableEarly": false,
+    "isBaseForm": false,
+    "isLegendary": false,
+    "games": [
+      "scarlet",
+      "violet",
+      "sword",
+      "shield"
+    ],
+    "isFinalForm": true,
+    "evolves_from": "silicobra",
+    "id": 844
+  },
+  "cramorant": {
+    "availableEarly": false,
+    "isBaseForm": true,
+    "isLegendary": false,
+    "games": [
+      "sword",
+      "shield"
+    ],
+    "isFinalForm": true,
+    "evolves_from": null,
+    "id": 845
+  },
+  "arrokuda": {
+    "availableEarly": false,
+    "isBaseForm": true,
+    "isLegendary": false,
+    "games": [
+      "scarlet",
+      "violet",
+      "sword",
+      "shield"
+    ],
+    "isFinalForm": false,
+    "evolves_from": null,
+    "id": 846
+  },
+  "barraskewda": {
+    "availableEarly": false,
+    "isBaseForm": false,
+    "isLegendary": false,
+    "games": [
+      "scarlet",
+      "violet",
+      "sword",
+      "shield"
+    ],
+    "isFinalForm": true,
+    "evolves_from": "arrokuda",
+    "id": 847
+  },
+  "toxel": {
+    "availableEarly": false,
+    "isBaseForm": true,
+    "isLegendary": false,
+    "games": [
+      "scarlet",
+      "violet",
+      "sword",
+      "shield"
+    ],
+    "isFinalForm": false,
+    "evolves_from": null,
+    "id": 848
+  },
+  "toxtricity": {
+    "availableEarly": false,
+    "isBaseForm": false,
+    "isLegendary": false,
+    "games": [
+      "scarlet",
+      "violet",
+      "sword",
+      "shield"
+    ],
+    "isFinalForm": true,
+    "evolves_from": "toxel",
+    "id": 849
+  },
+  "sizzlipede": {
+    "availableEarly": false,
+    "isBaseForm": true,
+    "isLegendary": false,
+    "games": [
+      "sword",
+      "shield"
+    ],
+    "isFinalForm": false,
+    "evolves_from": null,
+    "id": 850
+  },
+  "centiskorch": {
+    "availableEarly": false,
+    "isBaseForm": false,
+    "isLegendary": false,
+    "games": [
+      "sword",
+      "shield"
+    ],
+    "isFinalForm": true,
+    "evolves_from": "sizzlipede",
+    "id": 851
+  },
+  "clobbopus": {
+    "availableEarly": false,
+    "isBaseForm": true,
+    "isLegendary": false,
+    "games": [
+      "sword",
+      "shield"
+    ],
+    "isFinalForm": false,
+    "evolves_from": null,
+    "id": 852
+  },
+  "grapploct": {
+    "availableEarly": false,
+    "isBaseForm": false,
+    "isLegendary": false,
+    "games": [
+      "sword",
+      "shield"
+    ],
+    "isFinalForm": true,
+    "evolves_from": "clobbopus",
+    "id": 853
+  },
+  "sinistea": {
+    "availableEarly": false,
+    "isBaseForm": true,
+    "isLegendary": false,
+    "games": [
+      "scarlet",
+      "violet",
+      "sword",
+      "shield"
+    ],
+    "isFinalForm": false,
+    "evolves_from": null,
+    "id": 854
+  },
+  "polteageist": {
+    "availableEarly": false,
+    "isBaseForm": false,
+    "isLegendary": false,
+    "games": [
+      "scarlet",
+      "violet",
+      "sword",
+      "shield"
+    ],
+    "isFinalForm": true,
+    "evolves_from": "sinistea",
+    "id": 855
+  },
+  "hatenna": {
+    "availableEarly": false,
+    "isBaseForm": true,
+    "isLegendary": false,
+    "games": [
+      "scarlet",
+      "violet",
+      "sword",
+      "shield"
+    ],
+    "isFinalForm": false,
+    "evolves_from": null,
+    "id": 856
+  },
+  "hattrem": {
+    "availableEarly": false,
+    "isBaseForm": false,
+    "isLegendary": false,
+    "games": [
+      "scarlet",
+      "violet",
+      "sword",
+      "shield"
+    ],
+    "isFinalForm": false,
+    "evolves_from": "hatenna",
+    "id": 857
+  },
+  "hatterene": {
+    "availableEarly": false,
+    "isBaseForm": false,
+    "isLegendary": false,
+    "games": [
+      "scarlet",
+      "violet",
+      "sword",
+      "shield"
+    ],
+    "isFinalForm": true,
+    "evolves_from": "hattrem",
+    "id": 858
+  },
+  "impidimp": {
+    "availableEarly": false,
+    "isBaseForm": true,
+    "isLegendary": false,
+    "games": [
+      "scarlet",
+      "violet",
+      "sword",
+      "shield"
+    ],
+    "isFinalForm": false,
+    "evolves_from": null,
+    "id": 859
+  },
+  "morgrem": {
+    "availableEarly": false,
+    "isBaseForm": false,
+    "isLegendary": false,
+    "games": [
+      "scarlet",
+      "violet",
+      "sword",
+      "shield"
+    ],
+    "isFinalForm": false,
+    "evolves_from": "impidimp",
+    "id": 860
+  },
+  "grimmsnarl": {
+    "availableEarly": false,
+    "isBaseForm": false,
+    "isLegendary": false,
+    "games": [
+      "scarlet",
+      "violet",
+      "sword",
+      "shield"
+    ],
+    "isFinalForm": true,
+    "evolves_from": "morgrem",
+    "id": 861
+  },
+  "obstagoon": {
+    "availableEarly": false,
+    "isBaseForm": false,
+    "isLegendary": false,
+    "games": [
+      "sword",
+      "shield"
+    ],
+    "isFinalForm": true,
+    "evolves_from": "linoone",
+    "id": 862
+  },
+  "perrserker": {
+    "availableEarly": false,
+    "isBaseForm": false,
+    "isLegendary": false,
+    "games": [
+      "sword",
+      "shield"
+    ],
+    "isFinalForm": true,
+    "evolves_from": "meowth",
+    "id": 863
+  },
+  "cursola": {
+    "availableEarly": false,
+    "isBaseForm": false,
+    "isLegendary": false,
+    "games": [
+      "sword",
+      "shield"
+    ],
+    "isFinalForm": true,
+    "evolves_from": "corsola",
+    "id": 864
+  },
+  "sirfetch’d": {
+    "availableEarly": false,
+    "isBaseForm": true,
+    "isLegendary": false,
+    "games": [],
+    "isFinalForm": false,
+    "evolves_from": null,
+    "id": 865
+  },
+  "mr. rime": {
+    "availableEarly": false,
+    "isBaseForm": false,
+    "isLegendary": false,
+    "games": [],
+    "isFinalForm": true,
+    "evolves_from": "mr-mime",
+    "id": 866
+  },
+  "runerigus": {
+    "availableEarly": false,
+    "isBaseForm": false,
+    "isLegendary": false,
+    "games": [
+      "sword",
+      "shield"
+    ],
+    "isFinalForm": true,
+    "evolves_from": "yamask",
+    "id": 867
+  },
+  "milcery": {
+    "availableEarly": false,
+    "isBaseForm": true,
+    "isLegendary": false,
+    "games": [
+      "sword",
+      "shield"
+    ],
+    "isFinalForm": false,
+    "evolves_from": null,
+    "id": 868
+  },
+  "alcremie": {
+    "availableEarly": false,
+    "isBaseForm": false,
+    "isLegendary": false,
+    "games": [
+      "sword",
+      "shield"
+    ],
+    "isFinalForm": true,
+    "evolves_from": "milcery",
+    "id": 869
+  },
+  "falinks": {
+    "availableEarly": false,
+    "isBaseForm": true,
+    "isLegendary": false,
+    "games": [
+      "scarlet",
+      "violet",
+      "sword",
+      "shield"
+    ],
+    "isFinalForm": true,
+    "evolves_from": null,
+    "id": 870
+  },
+  "pincurchin": {
+    "availableEarly": false,
+    "isBaseForm": true,
+    "isLegendary": false,
+    "games": [
+      "scarlet",
+      "violet",
+      "sword",
+      "shield"
+    ],
+    "isFinalForm": true,
+    "evolves_from": null,
+    "id": 871
+  },
+  "snom": {
+    "availableEarly": false,
+    "isBaseForm": true,
+    "isLegendary": false,
+    "games": [
+      "scarlet",
+      "violet",
+      "sword",
+      "shield"
+    ],
+    "isFinalForm": false,
+    "evolves_from": null,
+    "id": 872
+  },
+  "frosmoth": {
+    "availableEarly": false,
+    "isBaseForm": false,
+    "isLegendary": false,
+    "games": [
+      "scarlet",
+      "violet",
+      "sword",
+      "shield"
+    ],
+    "isFinalForm": true,
+    "evolves_from": "snom",
+    "id": 873
+  },
+  "stonjourner": {
+    "availableEarly": false,
+    "isBaseForm": true,
+    "isLegendary": false,
+    "games": [
+      "scarlet",
+      "violet",
+      "sword",
+      "shield"
+    ],
+    "isFinalForm": true,
+    "evolves_from": null,
+    "id": 874
+  },
+  "eiscue": {
+    "availableEarly": false,
+    "isBaseForm": true,
+    "isLegendary": false,
+    "games": [
+      "scarlet",
+      "violet",
+      "sword",
+      "shield"
+    ],
+    "isFinalForm": true,
+    "evolves_from": null,
+    "id": 875
+  },
+  "indeedee": {
+    "availableEarly": false,
+    "isBaseForm": true,
+    "isLegendary": false,
+    "games": [
+      "scarlet",
+      "violet",
+      "sword",
+      "shield"
+    ],
+    "isFinalForm": true,
+    "evolves_from": null,
+    "id": 876
+  },
+  "morpeko": {
+    "availableEarly": false,
+    "isBaseForm": true,
+    "isLegendary": false,
+    "games": [
+      "sword",
+      "shield"
+    ],
+    "isFinalForm": true,
+    "evolves_from": null,
+    "id": 877
+  },
+  "cufant": {
+    "availableEarly": false,
+    "isBaseForm": true,
+    "isLegendary": false,
+    "games": [
+      "scarlet",
+      "violet",
+      "sword",
+      "shield"
+    ],
+    "isFinalForm": false,
+    "evolves_from": null,
+    "id": 878
+  },
+  "copperajah": {
+    "availableEarly": false,
+    "isBaseForm": false,
+    "isLegendary": false,
+    "games": [
+      "scarlet",
+      "violet",
+      "sword",
+      "shield"
+    ],
+    "isFinalForm": true,
+    "evolves_from": "cufant",
+    "id": 879
+  },
+  "dracozolt": {
+    "availableEarly": false,
+    "isBaseForm": true,
+    "isLegendary": false,
+    "games": [
+      "sword",
+      "shield"
+    ],
+    "isFinalForm": true,
+    "evolves_from": null,
+    "id": 880
+  },
+  "arctozolt": {
+    "availableEarly": false,
+    "isBaseForm": true,
+    "isLegendary": false,
+    "games": [
+      "sword",
+      "shield"
+    ],
+    "isFinalForm": true,
+    "evolves_from": null,
+    "id": 881
+  },
+  "dracovish": {
+    "availableEarly": false,
+    "isBaseForm": true,
+    "isLegendary": false,
+    "games": [
+      "sword",
+      "shield"
+    ],
+    "isFinalForm": true,
+    "evolves_from": null,
+    "id": 882
+  },
+  "arctovish": {
+    "availableEarly": false,
+    "isBaseForm": true,
+    "isLegendary": false,
+    "games": [
+      "sword",
+      "shield"
+    ],
+    "isFinalForm": true,
+    "evolves_from": null,
+    "id": 883
+  },
+  "duraludon": {
+    "availableEarly": false,
+    "isBaseForm": true,
+    "isLegendary": false,
+    "games": [
+      "sword",
+      "shield"
+    ],
+    "isFinalForm": false,
+    "evolves_from": null,
+    "id": 884
+  },
+  "dreepy": {
+    "availableEarly": false,
+    "isBaseForm": true,
+    "isLegendary": false,
+    "games": [
+      "scarlet",
+      "violet",
+      "sword",
+      "shield"
+    ],
+    "isFinalForm": false,
+    "evolves_from": null,
+    "id": 885
+  },
+  "drakloak": {
+    "availableEarly": false,
+    "isBaseForm": false,
+    "isLegendary": false,
+    "games": [
+      "scarlet",
+      "violet",
+      "sword",
+      "shield"
+    ],
+    "isFinalForm": false,
+    "evolves_from": "dreepy",
+    "id": 886
+  },
+  "dragapult": {
+    "availableEarly": false,
+    "isBaseForm": false,
+    "isLegendary": false,
+    "games": [
+      "scarlet",
+      "violet",
+      "sword",
+      "shield"
+    ],
+    "isFinalForm": true,
+    "evolves_from": "drakloak",
+    "id": 887
+  },
+  "zacian": {
+    "availableEarly": false,
+    "isBaseForm": true,
+    "isLegendary": true,
+    "games": [
+      "sword",
+      "shield"
+    ],
+    "isFinalForm": true,
+    "evolves_from": null,
+    "id": 888
+  },
+  "zamazenta": {
+    "availableEarly": false,
+    "isBaseForm": true,
+    "isLegendary": true,
+    "games": [
+      "sword",
+      "shield"
+    ],
+    "isFinalForm": true,
+    "evolves_from": null,
+    "id": 889
+  },
+  "eternatus": {
+    "availableEarly": false,
+    "isBaseForm": true,
+    "isLegendary": true,
+    "games": [
+      "sword",
+      "shield"
+    ],
+    "isFinalForm": true,
+    "evolves_from": null,
+    "id": 890
+  },
+  "kubfu": {
+    "availableEarly": false,
+    "isBaseForm": true,
+    "isLegendary": true,
+    "games": [],
+    "isFinalForm": false,
+    "evolves_from": null,
+    "id": 891
+  },
+  "urshifu": {
+    "availableEarly": false,
+    "isBaseForm": true,
+    "isLegendary": true,
+    "games": [],
+    "isFinalForm": true,
+    "evolves_from": null,
+    "id": 892
+  },
+  "zarude": {
+    "availableEarly": false,
+    "isBaseForm": true,
+    "isLegendary": false,
+    "games": [],
+    "isFinalForm": true,
+    "evolves_from": null,
+    "id": 893
+  },
+  "regieleki": {
+    "availableEarly": false,
+    "isBaseForm": true,
+    "isLegendary": true,
+    "games": [],
+    "isFinalForm": true,
+    "evolves_from": null,
+    "id": 894
+  },
+  "regidrago": {
+    "availableEarly": false,
+    "isBaseForm": true,
+    "isLegendary": true,
+    "games": [],
+    "isFinalForm": true,
+    "evolves_from": null,
+    "id": 895
+  },
+  "glastrier": {
+    "availableEarly": false,
+    "isBaseForm": true,
+    "isLegendary": true,
+    "games": [],
+    "isFinalForm": true,
+    "evolves_from": null,
+    "id": 896
+  },
+  "spectrier": {
+    "availableEarly": false,
+    "isBaseForm": true,
+    "isLegendary": true,
+    "games": [],
+    "isFinalForm": true,
+    "evolves_from": null,
+    "id": 897
+  },
+  "calyrex": {
+    "availableEarly": false,
+    "isBaseForm": true,
+    "isLegendary": true,
+    "games": [],
+    "isFinalForm": true,
+    "evolves_from": null,
+    "id": 898
+  }
+}

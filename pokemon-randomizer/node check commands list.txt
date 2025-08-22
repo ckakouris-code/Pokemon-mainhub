@@ -1,0 +1,9 @@
+node check-metadata-ids.js metadata-kanto.json
+node check-metadata-ids.js metadata-johto.json
+node check-metadata-ids.js metadata-hoenn.json
+node check-metadata-ids.js metadata-sinnoh.json
+node check-metadata-ids.js metadata-
+node check-metadata-ids.js metadata-
+node check-metadata-ids.js metadata-
+node check-metadata-ids.js metadata-
+node check-metadata-ids.js metadata-
