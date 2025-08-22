@@ -1,0 +1,1332 @@
+{
+  "rowlet": {
+    "availableEarly": false,
+    "isBaseForm": true,
+    "isLegendary": false,
+    "games": [
+      "sun",
+      "moon",
+      "ultrasun",
+      "ultramoon",
+      "legendsarceus"
+    ],
+    "isFinalForm": false,
+    "evolves_from": null,
+    "id": 722
+  },
+  "dartrix": {
+    "availableEarly": false,
+    "isBaseForm": false,
+    "isLegendary": false,
+    "games": [
+      "sun",
+      "moon",
+      "ultrasun",
+      "ultramoon",
+      "legendsarceus"
+    ],
+    "isFinalForm": false,
+    "evolves_from": "rowlet",
+    "id": 723
+  },
+  "decidueye": {
+    "availableEarly": false,
+    "isBaseForm": false,
+    "isLegendary": false,
+    "games": [
+      "sun",
+      "moon",
+      "ultrasun",
+      "ultramoon",
+      "legendsarceus"
+    ],
+    "isFinalForm": true,
+    "evolves_from": "dartrix",
+    "id": 724
+  },
+  "litten": {
+    "availableEarly": false,
+    "isBaseForm": true,
+    "isLegendary": false,
+    "games": [
+      "sun",
+      "moon",
+      "ultrasun",
+      "ultramoon"
+    ],
+    "isFinalForm": false,
+    "evolves_from": null,
+    "id": 725
+  },
+  "torracat": {
+    "availableEarly": false,
+    "isBaseForm": false,
+    "isLegendary": false,
+    "games": [
+      "sun",
+      "moon",
+      "ultrasun",
+      "ultramoon"
+    ],
+    "isFinalForm": false,
+    "evolves_from": "litten",
+    "id": 726
+  },
+  "incineroar": {
+    "availableEarly": false,
+    "isBaseForm": false,
+    "isLegendary": false,
+    "games": [
+      "sun",
+      "moon",
+      "ultrasun",
+      "ultramoon"
+    ],
+    "isFinalForm": true,
+    "evolves_from": "torracat",
+    "id": 727
+  },
+  "popplio": {
+    "availableEarly": false,
+    "isBaseForm": true,
+    "isLegendary": false,
+    "games": [
+      "sun",
+      "moon",
+      "ultrasun",
+      "ultramoon"
+    ],
+    "isFinalForm": false,
+    "evolves_from": null,
+    "id": 728
+  },
+  "brionne": {
+    "availableEarly": false,
+    "isBaseForm": false,
+    "isLegendary": false,
+    "games": [
+      "sun",
+      "moon",
+      "ultrasun",
+      "ultramoon"
+    ],
+    "isFinalForm": false,
+    "evolves_from": "popplio",
+    "id": 729
+  },
+  "primarina": {
+    "availableEarly": false,
+    "isBaseForm": false,
+    "isLegendary": false,
+    "games": [
+      "sun",
+      "moon",
+      "ultrasun",
+      "ultramoon"
+    ],
+    "isFinalForm": true,
+    "evolves_from": "brionne",
+    "id": 730
+  },
+  "pikipek": {
+    "availableEarly": true,
+    "isBaseForm": true,
+    "isLegendary": false,
+    "games": [
+      "sun",
+      "moon",
+      "ultrasun",
+      "ultramoon"
+    ],
+    "isFinalForm": false,
+    "evolves_from": null,
+    "id": 731
+  },
+  "trumbeak": {
+    "availableEarly": false,
+    "isBaseForm": false,
+    "isLegendary": false,
+    "games": [
+      "sun",
+      "moon",
+      "ultrasun",
+      "ultramoon"
+    ],
+    "isFinalForm": false,
+    "evolves_from": "pikipek",
+    "id": 732
+  },
+  "toucannon": {
+    "availableEarly": false,
+    "isBaseForm": false,
+    "isLegendary": false,
+    "games": [
+      "sun",
+      "moon",
+      "ultrasun",
+      "ultramoon"
+    ],
+    "isFinalForm": true,
+    "evolves_from": "trumbeak",
+    "id": 733
+  },
+  "yungoos": {
+    "availableEarly": false,
+    "isBaseForm": true,
+    "isLegendary": false,
+    "games": [
+      "sun",
+      "moon",
+      "scarlet",
+      "violet",
+      "ultrasun",
+      "ultramoon"
+    ],
+    "isFinalForm": false,
+    "evolves_from": null,
+    "id": 734
+  },
+  "gumshoos": {
+    "availableEarly": false,
+    "isBaseForm": false,
+    "isLegendary": false,
+    "games": [
+      "sun",
+      "moon",
+      "scarlet",
+      "violet",
+      "ultrasun",
+      "ultramoon"
+    ],
+    "isFinalForm": true,
+    "evolves_from": "yungoos",
+    "id": 735
+  },
+  "grubbin": {
+    "availableEarly": false,
+    "isBaseForm": true,
+    "isLegendary": false,
+    "games": [
+      "sun",
+      "moon",
+      "sword",
+      "shield",
+      "ultrasun",
+      "ultramoon"
+    ],
+    "isFinalForm": false,
+    "evolves_from": null,
+    "id": 736
+  },
+  "charjabug": {
+    "availableEarly": false,
+    "isBaseForm": false,
+    "isLegendary": false,
+    "games": [
+      "sun",
+      "moon",
+      "sword",
+      "shield",
+      "ultrasun",
+      "ultramoon"
+    ],
+    "isFinalForm": false,
+    "evolves_from": "grubbin",
+    "id": 737
+  },
+  "vikavolt": {
+    "availableEarly": false,
+    "isBaseForm": false,
+    "isLegendary": false,
+    "games": [
+      "sun",
+      "moon",
+      "sword",
+      "shield",
+      "ultrasun",
+      "ultramoon"
+    ],
+    "isFinalForm": true,
+    "evolves_from": "charjabug",
+    "id": 738
+  },
+  "crabrawler": {
+    "availableEarly": false,
+    "isBaseForm": true,
+    "isLegendary": false,
+    "games": [
+      "sun",
+      "moon",
+      "scarlet",
+      "violet",
+      "ultrasun",
+      "ultramoon"
+    ],
+    "isFinalForm": false,
+    "evolves_from": null,
+    "id": 739
+  },
+  "crabominable": {
+    "availableEarly": false,
+    "isBaseForm": false,
+    "isLegendary": false,
+    "games": [
+      "sun",
+      "moon",
+      "scarlet",
+      "violet",
+      "ultrasun",
+      "ultramoon"
+    ],
+    "isFinalForm": true,
+    "evolves_from": "crabrawler",
+    "id": 740
+  },
+  "oricorio": {
+    "availableEarly": false,
+    "isBaseForm": true,
+    "isLegendary": false,
+    "games": [
+      "sun",
+      "moon",
+      "scarlet",
+      "violet",
+      "ultrasun",
+      "ultramoon"
+    ],
+    "isFinalForm": true,
+    "evolves_from": null,
+    "id": 741
+  },
+  "cutiefly": {
+    "availableEarly": false,
+    "isBaseForm": true,
+    "isLegendary": false,
+    "games": [
+      "sun",
+      "moon",
+      "ultrasun",
+      "ultramoon",
+      "sword",
+      "shield"
+    ],
+    "isFinalForm": false,
+    "evolves_from": null,
+    "id": 742
+  },
+  "ribombee": {
+    "availableEarly": false,
+    "isBaseForm": false,
+    "isLegendary": false,
+    "games": [
+      "sun",
+      "moon",
+      "ultrasun",
+      "ultramoon",
+      "sword",
+      "shield"
+    ],
+    "isFinalForm": true,
+    "evolves_from": "cutiefly",
+    "id": 743
+  },
+  "rockruff": {
+    "availableEarly": false,
+    "isBaseForm": true,
+    "isLegendary": false,
+    "games": [
+      "sun",
+      "moon",
+      "scarlet",
+      "violet",
+      "ultrasun",
+      "ultramoon"
+    ],
+    "isFinalForm": false,
+    "evolves_from": null,
+    "id": 744
+  },
+  "lycanroc": {
+    "availableEarly": false,
+    "isBaseForm": false,
+    "isLegendary": false,
+    "games": [
+      "sun",
+      "moon",
+      "scarlet",
+      "violet",
+      "ultrasun",
+      "ultramoon"
+    ],
+    "isFinalForm": true,
+    "evolves_from": "rockruff",
+    "id": 745
+  },
+  "wishiwashi": {
+    "availableEarly": false,
+    "isBaseForm": true,
+    "isLegendary": false,
+    "games": [
+      "sun",
+      "moon",
+      "ultrasun",
+      "ultramoon",
+      "sword",
+      "shield"
+    ],
+    "isFinalForm": true,
+    "evolves_from": null,
+    "id": 746
+  },
+  "mareanie": {
+    "availableEarly": false,
+    "isBaseForm": true,
+    "isLegendary": false,
+    "games": [
+      "sun",
+      "moon",
+      "scarlet",
+      "violet",
+      "ultrasun",
+      "ultramoon",
+      "sword",
+      "shield"
+    ],
+    "isFinalForm": false,
+    "evolves_from": null,
+    "id": 747
+  },
+  "toxapex": {
+    "availableEarly": false,
+    "isBaseForm": false,
+    "isLegendary": false,
+    "games": [
+      "sun",
+      "moon",
+      "scarlet",
+      "violet",
+      "ultrasun",
+      "ultramoon",
+      "sword",
+      "shield"
+    ],
+    "isFinalForm": true,
+    "evolves_from": "mareanie",
+    "id": 748
+  },
+  "mudbray": {
+    "availableEarly": false,
+    "isBaseForm": true,
+    "isLegendary": false,
+    "games": [
+      "sun",
+      "moon",
+      "scarlet",
+      "violet",
+      "ultrasun",
+      "ultramoon",
+      "sword",
+      "shield"
+    ],
+    "isFinalForm": false,
+    "evolves_from": null,
+    "id": 749
+  },
+  "mudsdale": {
+    "availableEarly": false,
+    "isBaseForm": false,
+    "isLegendary": false,
+    "games": [
+      "sun",
+      "moon",
+      "scarlet",
+      "violet",
+      "ultrasun",
+      "ultramoon",
+      "sword",
+      "shield"
+    ],
+    "isFinalForm": true,
+    "evolves_from": "mudbray",
+    "id": 750
+  },
+  "dewpider": {
+    "availableEarly": false,
+    "isBaseForm": true,
+    "isLegendary": false,
+    "games": [
+      "sun",
+      "moon",
+      "ultrasun",
+      "ultramoon",
+      "sword",
+      "shield"
+    ],
+    "isFinalForm": false,
+    "evolves_from": null,
+    "id": 751
+  },
+  "araquanid": {
+    "availableEarly": false,
+    "isBaseForm": false,
+    "isLegendary": false,
+    "games": [
+      "sun",
+      "moon",
+      "ultrasun",
+      "ultramoon",
+      "sword",
+      "shield"
+    ],
+    "isFinalForm": true,
+    "evolves_from": "dewpider",
+    "id": 752
+  },
+  "fomantis": {
+    "availableEarly": false,
+    "isBaseForm": true,
+    "isLegendary": false,
+    "games": [
+      "sun",
+      "moon",
+      "scarlet",
+      "violet",
+      "ultrasun",
+      "ultramoon"
+    ],
+    "isFinalForm": false,
+    "evolves_from": null,
+    "id": 753
+  },
+  "lurantis": {
+    "availableEarly": false,
+    "isBaseForm": false,
+    "isLegendary": false,
+    "games": [
+      "sun",
+      "moon",
+      "scarlet",
+      "violet",
+      "ultrasun",
+      "ultramoon"
+    ],
+    "isFinalForm": true,
+    "evolves_from": "fomantis",
+    "id": 754
+  },
+  "morelull": {
+    "availableEarly": false,
+    "isBaseForm": true,
+    "isLegendary": false,
+    "games": [
+      "sun",
+      "moon",
+      "sword",
+      "shield",
+      "ultrasun",
+      "ultramoon"
+    ],
+    "isFinalForm": false,
+    "evolves_from": null,
+    "id": 755
+  },
+  "shiinotic": {
+    "availableEarly": false,
+    "isBaseForm": false,
+    "isLegendary": false,
+    "games": [
+      "sun",
+      "moon",
+      "sword",
+      "shield",
+      "ultrasun",
+      "ultramoon"
+    ],
+    "isFinalForm": true,
+    "evolves_from": "morelull",
+    "id": 756
+  },
+  "salandit": {
+    "availableEarly": false,
+    "isBaseForm": true,
+    "isLegendary": false,
+    "games": [
+      "sun",
+      "moon",
+      "scarlet",
+      "violet",
+      "sword",
+      "shield",
+      "ultrasun",
+      "ultramoon"
+    ],
+    "isFinalForm": false,
+    "evolves_from": null,
+    "id": 757
+  },
+  "salazzle": {
+    "availableEarly": false,
+    "isBaseForm": false,
+    "isLegendary": false,
+    "games": [
+      "sun",
+      "moon",
+      "scarlet",
+      "violet",
+      "sword",
+      "shield",
+      "ultrasun",
+      "ultramoon"
+    ],
+    "isFinalForm": true,
+    "evolves_from": "salandit",
+    "id": 758
+  },
+  "stufful": {
+    "availableEarly": false,
+    "isBaseForm": true,
+    "isLegendary": false,
+    "games": [
+      "sun",
+      "moon",
+      "ultrasun",
+      "ultramoon",
+      "sword",
+      "shield"
+    ],
+    "isFinalForm": false,
+    "evolves_from": null,
+    "id": 759
+  },
+  "bewear": {
+    "availableEarly": false,
+    "isBaseForm": false,
+    "isLegendary": false,
+    "games": [
+      "sun",
+      "moon",
+      "ultrasun",
+      "ultramoon",
+      "sword",
+      "shield"
+    ],
+    "isFinalForm": true,
+    "evolves_from": "stufful",
+    "id": 760
+  },
+  "bounsweet": {
+    "availableEarly": false,
+    "isBaseForm": true,
+    "isLegendary": false,
+    "games": [
+      "sun",
+      "moon",
+      "scarlet",
+      "violet",
+      "ultrasun",
+      "ultramoon",
+      "sword",
+      "shield"
+    ],
+    "isFinalForm": false,
+    "evolves_from": null,
+    "id": 761
+  },
+  "steenee": {
+    "availableEarly": false,
+    "isBaseForm": false,
+    "isLegendary": false,
+    "games": [
+      "sun",
+      "moon",
+      "scarlet",
+      "violet",
+      "ultrasun",
+      "ultramoon",
+      "sword",
+      "shield"
+    ],
+    "isFinalForm": false,
+    "evolves_from": "bounsweet",
+    "id": 762
+  },
+  "tsareena": {
+    "availableEarly": false,
+    "isBaseForm": false,
+    "isLegendary": false,
+    "games": [
+      "sun",
+      "moon",
+      "scarlet",
+      "violet",
+      "ultrasun",
+      "ultramoon",
+      "sword",
+      "shield"
+    ],
+    "isFinalForm": true,
+    "evolves_from": "steenee",
+    "id": 763
+  },
+  "comfey": {
+    "availableEarly": false,
+    "isBaseForm": true,
+    "isLegendary": false,
+    "games": [
+      "sun",
+      "moon",
+      "ultrasun",
+      "ultramoon"
+    ],
+    "isFinalForm": true,
+    "evolves_from": null,
+    "id": 764
+  },
+  "oranguru": {
+    "availableEarly": false,
+    "isBaseForm": true,
+    "isLegendary": false,
+    "games": [
+      "sun",
+      "moon",
+      "scarlet",
+      "violet",
+      "sword",
+      "shield",
+      "ultrasun",
+      "ultramoon"
+    ],
+    "isFinalForm": true,
+    "evolves_from": null,
+    "id": 765
+  },
+  "passimian": {
+    "availableEarly": false,
+    "isBaseForm": true,
+    "isLegendary": false,
+    "games": [
+      "sun",
+      "moon",
+      "scarlet",
+      "violet",
+      "sword",
+      "shield",
+      "ultrasun",
+      "ultramoon"
+    ],
+    "isFinalForm": true,
+    "evolves_from": null,
+    "id": 766
+  },
+  "wimpod": {
+    "availableEarly": false,
+    "isBaseForm": true,
+    "isLegendary": false,
+    "games": [
+      "sun",
+      "moon",
+      "sword",
+      "shield",
+      "ultrasun",
+      "ultramoon"
+    ],
+    "isFinalForm": false,
+    "evolves_from": null,
+    "id": 767
+  },
+  "golisopod": {
+    "availableEarly": false,
+    "isBaseForm": false,
+    "isLegendary": false,
+    "games": [
+      "sun",
+      "moon",
+      "ultrasun",
+      "ultramoon",
+      "sword",
+      "shield"
+    ],
+    "isFinalForm": true,
+    "evolves_from": "wimpod",
+    "id": 768
+  },
+  "sandygast": {
+    "availableEarly": false,
+    "isBaseForm": true,
+    "isLegendary": false,
+    "games": [
+      "sun",
+      "moon",
+      "scarlet",
+      "violet",
+      "ultrasun",
+      "ultramoon"
+    ],
+    "isFinalForm": false,
+    "evolves_from": null,
+    "id": 769
+  },
+  "palossand": {
+    "availableEarly": false,
+    "isBaseForm": false,
+    "isLegendary": false,
+    "games": [
+      "sun",
+      "moon",
+      "scarlet",
+      "violet",
+      "ultrasun",
+      "ultramoon"
+    ],
+    "isFinalForm": true,
+    "evolves_from": "sandygast",
+    "id": 770
+  },
+  "pyukumuku": {
+    "availableEarly": false,
+    "isBaseForm": true,
+    "isLegendary": false,
+    "games": [
+      "sun",
+      "moon",
+      "ultrasun",
+      "ultramoon",
+      "sword",
+      "shield"
+    ],
+    "isFinalForm": true,
+    "evolves_from": null,
+    "id": 771
+  },
+  "type: null": {
+    "availableEarly": false,
+    "isBaseForm": true,
+    "isLegendary": true,
+    "games": [],
+    "isFinalForm": false,
+    "evolves_from": null,
+    "id": 772
+  },
+  "silvally": {
+    "availableEarly": false,
+    "isBaseForm": true,
+    "isLegendary": true,
+    "games": [
+      "sun",
+      "moon",
+      "sword",
+      "shield",
+      "ultrasun",
+      "ultramoon"
+    ],
+    "isFinalForm": true,
+    "evolves_from": null,
+    "id": 773
+  },
+  "minior": {
+    "availableEarly": false,
+    "isBaseForm": true,
+    "isLegendary": false,
+    "games": [
+      "sun",
+      "moon",
+      "ultrasun",
+      "ultramoon"
+    ],
+    "isFinalForm": true,
+    "evolves_from": null,
+    "id": 774
+  },
+  "komala": {
+    "availableEarly": false,
+    "isBaseForm": true,
+    "isLegendary": false,
+    "games": [
+      "sun",
+      "moon",
+      "scarlet",
+      "violet",
+      "ultrasun",
+      "ultramoon"
+    ],
+    "isFinalForm": true,
+    "evolves_from": null,
+    "id": 775
+  },
+  "turtonator": {
+    "availableEarly": false,
+    "isBaseForm": true,
+    "isLegendary": false,
+    "games": [
+      "sun",
+      "moon",
+      "sword",
+      "shield",
+      "ultrasun",
+      "ultramoon"
+    ],
+    "isFinalForm": true,
+    "evolves_from": null,
+    "id": 776
+  },
+  "togedemaru": {
+    "availableEarly": false,
+    "isBaseForm": true,
+    "isLegendary": false,
+    "games": [
+      "sun",
+      "moon",
+      "sword",
+      "shield",
+      "ultrasun",
+      "ultramoon"
+    ],
+    "isFinalForm": true,
+    "evolves_from": null,
+    "id": 777
+  },
+  "mimikyu": {
+    "availableEarly": false,
+    "isBaseForm": true,
+    "isLegendary": false,
+    "games": [
+      "sun",
+      "moon",
+      "scarlet",
+      "violet",
+      "sword",
+      "shield",
+      "ultrasun",
+      "ultramoon"
+    ],
+    "isFinalForm": true,
+    "evolves_from": null,
+    "id": 778
+  },
+  "bruxish": {
+    "availableEarly": false,
+    "isBaseForm": true,
+    "isLegendary": false,
+    "games": [
+      "sun",
+      "moon",
+      "scarlet",
+      "violet",
+      "ultrasun",
+      "ultramoon"
+    ],
+    "isFinalForm": true,
+    "evolves_from": null,
+    "id": 779
+  },
+  "drampa": {
+    "availableEarly": false,
+    "isBaseForm": true,
+    "isLegendary": false,
+    "games": [
+      "sun",
+      "moon",
+      "sword",
+      "shield",
+      "ultrasun",
+      "ultramoon"
+    ],
+    "isFinalForm": true,
+    "evolves_from": null,
+    "id": 780
+  },
+  "dhelmise": {
+    "availableEarly": false,
+    "isBaseForm": true,
+    "isLegendary": false,
+    "games": [
+      "sun",
+      "moon",
+      "sword",
+      "shield",
+      "ultrasun",
+      "ultramoon"
+    ],
+    "isFinalForm": true,
+    "evolves_from": null,
+    "id": 781
+  },
+  "jangmo-o": {
+    "availableEarly": false,
+    "isBaseForm": true,
+    "isLegendary": false,
+    "games": [
+      "sun",
+      "moon",
+      "sword",
+      "shield",
+      "ultrasun",
+      "ultramoon"
+    ],
+    "isFinalForm": false,
+    "evolves_from": null,
+    "id": 782
+  },
+  "hakamo-o": {
+    "availableEarly": false,
+    "isBaseForm": false,
+    "isLegendary": false,
+    "games": [
+      "sun",
+      "moon",
+      "sword",
+      "shield",
+      "ultrasun",
+      "ultramoon"
+    ],
+    "isFinalForm": false,
+    "evolves_from": "jangmo-o",
+    "id": 783
+  },
+  "kommo-o": {
+    "availableEarly": false,
+    "isBaseForm": false,
+    "isLegendary": false,
+    "games": [
+      "sun",
+      "moon",
+      "sword",
+      "shield",
+      "ultrasun",
+      "ultramoon"
+    ],
+    "isFinalForm": true,
+    "evolves_from": "hakamo-o",
+    "id": 784
+  },
+  "tapu koko": {
+    "availableEarly": false,
+    "isBaseForm": true,
+    "isLegendary": true,
+    "games": [],
+    "isFinalForm": true,
+    "evolves_from": null,
+    "id": 785
+  },
+  "tapu lele": {
+    "availableEarly": false,
+    "isBaseForm": true,
+    "isLegendary": true,
+    "games": [],
+    "isFinalForm": true,
+    "evolves_from": null,
+    "id": 786
+  },
+  "tapu bulu": {
+    "availableEarly": false,
+    "isBaseForm": true,
+    "isLegendary": true,
+    "games": [],
+    "isFinalForm": true,
+    "evolves_from": null,
+    "id": 787
+  },
+  "tapu fini": {
+    "availableEarly": false,
+    "isBaseForm": true,
+    "isLegendary": true,
+    "games": [],
+    "isFinalForm": true,
+    "evolves_from": null,
+    "id": 788
+  },
+  "cosmog": {
+    "availableEarly": false,
+    "isBaseForm": true,
+    "isLegendary": true,
+    "games": [
+      "sun",
+      "moon",
+      "ultrasun",
+      "ultramoon"
+    ],
+    "isFinalForm": false,
+    "evolves_from": null,
+    "id": 789
+  },
+  "cosmoem": {
+    "availableEarly": false,
+    "isBaseForm": true,
+    "isLegendary": true,
+    "games": [
+      "sun",
+      "moon",
+      "ultrasun",
+      "ultramoon"
+    ],
+    "isFinalForm": false,
+    "evolves_from": null,
+    "id": 790
+  },
+  "solgaleo": {
+    "availableEarly": false,
+    "isBaseForm": true,
+    "isLegendary": true,
+    "games": [
+      "sun",
+      "moon",
+      "ultrasun",
+      "ultramoon"
+    ],
+    "isFinalForm": true,
+    "evolves_from": null,
+    "id": 791
+  },
+  "lunala": {
+    "availableEarly": false,
+    "isBaseForm": true,
+    "isLegendary": true,
+    "games": [
+      "sun",
+      "moon",
+      "ultrasun",
+      "ultramoon"
+    ],
+    "isFinalForm": true,
+    "evolves_from": null,
+    "id": 792
+  },
+  "nihilego": {
+    "availableEarly": false,
+    "isBaseForm": true,
+    "isLegendary": false,
+    "games": [
+      "sun",
+      "moon",
+      "ultrasun",
+      "ultramoon"
+    ],
+    "isFinalForm": true,
+    "evolves_from": null,
+    "id": 793
+  },
+  "buzzwole": {
+    "availableEarly": false,
+    "isBaseForm": true,
+    "isLegendary": false,
+    "games": [
+      "sun",
+      "moon",
+      "ultrasun",
+      "ultramoon"
+    ],
+    "isFinalForm": true,
+    "evolves_from": null,
+    "id": 794
+  },
+  "pheromosa": {
+    "availableEarly": false,
+    "isBaseForm": true,
+    "isLegendary": false,
+    "games": [
+      "sun",
+      "moon",
+      "ultrasun",
+      "ultramoon"
+    ],
+    "isFinalForm": true,
+    "evolves_from": null,
+    "id": 795
+  },
+  "xurkitree": {
+    "availableEarly": false,
+    "isBaseForm": true,
+    "isLegendary": false,
+    "games": [
+      "sun",
+      "moon",
+      "ultrasun",
+      "ultramoon"
+    ],
+    "isFinalForm": true,
+    "evolves_from": null,
+    "id": 796
+  },
+  "celesteela": {
+    "availableEarly": false,
+    "isBaseForm": true,
+    "isLegendary": false,
+    "games": [
+      "sun",
+      "moon",
+      "ultrasun",
+      "ultramoon"
+    ],
+    "isFinalForm": true,
+    "evolves_from": null,
+    "id": 797
+  },
+  "kartana": {
+    "availableEarly": false,
+    "isBaseForm": true,
+    "isLegendary": false,
+    "games": [
+      "sun",
+      "moon",
+      "ultrasun",
+      "ultramoon"
+    ],
+    "isFinalForm": true,
+    "evolves_from": null,
+    "id": 798
+  },
+  "guzzlord": {
+    "availableEarly": false,
+    "isBaseForm": true,
+    "isLegendary": false,
+    "games": [
+      "sun",
+      "moon",
+      "ultrasun",
+      "ultramoon"
+    ],
+    "isFinalForm": true,
+    "evolves_from": null,
+    "id": 799
+  },
+  "necrozma": {
+    "availableEarly": false,
+    "isBaseForm": true,
+    "isLegendary": true,
+    "games": [
+      "sun",
+      "moon",
+      "ultrasun",
+      "ultramoon"
+    ],
+    "isFinalForm": true,
+    "evolves_from": null,
+    "id": 800
+  },
+  "magearna": {
+    "availableEarly": false,
+    "isBaseForm": true,
+    "isLegendary": false,
+    "games": [
+      "sun",
+      "moon",
+      "ultrasun",
+      "ultramoon"
+    ],
+    "isFinalForm": true,
+    "evolves_from": null,
+    "id": 801
+  },
+  "marshadow": {
+    "availableEarly": false,
+    "isBaseForm": true,
+    "isLegendary": false,
+    "games": [
+      "sun",
+      "moon",
+      "ultrasun",
+      "ultramoon"
+    ],
+    "isFinalForm": true,
+    "evolves_from": null,
+    "id": 802
+  },
+  "poipole": {
+    "availableEarly": false,
+    "isBaseForm": true,
+    "isLegendary": false,
+    "games": [
+      "sun",
+      "moon",
+      "ultrasun",
+      "ultramoon"
+    ],
+    "isFinalForm": false,
+    "evolves_from": null,
+    "id": 803
+  },
+  "naganadel": {
+    "availableEarly": false,
+    "isBaseForm": false,
+    "isLegendary": false,
+    "games": [
+      "sun",
+      "moon",
+      "ultrasun",
+      "ultramoon"
+    ],
+    "isFinalForm": true,
+    "evolves_from": "poipole",
+    "id": 804
+  },
+  "stakataka": {
+    "availableEarly": false,
+    "isBaseForm": true,
+    "isLegendary": false,
+    "games": [
+      "sun",
+      "moon",
+      "ultrasun",
+      "ultramoon"
+    ],
+    "isFinalForm": true,
+    "evolves_from": null,
+    "id": 805
+  },
+  "blacephalon": {
+    "availableEarly": false,
+    "isBaseForm": true,
+    "isLegendary": false,
+    "games": [
+      "sun",
+      "moon",
+      "ultrasun",
+      "ultramoon"
+    ],
+    "isFinalForm": true,
+    "evolves_from": null,
+    "id": 806
+  },
+  "zeraora": {
+    "availableEarly": false,
+    "isBaseForm": true,
+    "isLegendary": false,
+    "games": [
+      "sun",
+      "moon",
+      "ultrasun",
+      "ultramoon"
+    ],
+    "isFinalForm": true,
+    "evolves_from": null,
+    "id": 807
+  },
+  "meltan": {
+    "availableEarly": false,
+    "isBaseForm": true,
+    "isLegendary": false,
+    "games": [
+      "sun",
+      "moon",
+      "letsgopikachu",
+      "letsgoeevee"
+    ],
+    "isFinalForm": true,
+    "evolves_from": null,
+    "id": 808
+  },
+  "melmetal": {
+    "availableEarly": false,
+    "isBaseForm": false,
+    "isLegendary": false,
+    "games": [
+      "sun",
+      "moon",
+      "letsgopikachu",
+      "letsgoeevee"
+    ],
+    "isFinalForm": true,
+    "evolves_from": "meltan",
+    "id": 809
+  }
+}
